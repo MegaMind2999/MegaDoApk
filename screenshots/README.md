@@ -1,15 +1,15 @@
 # Screenshots
 
-Taken on an emulator with sample data (no personal info). Add these files, then remove `hidden`
-from `<section id="screenshots">` in `index.html` and uncomment the gallery in the main `README.md`.
+Taken on an Android emulator (phone, dark theme) with sample data only: no personal information
+and no real locations (the map shows a public spot in Paris). 720 px wide JPGs.
 
 | File | Screen |
 |---|---|
-| `today.png` | Today screen with progress and a few tasks |
-| `task-editor.png` | Task editor showing reminder, alert style and repeat |
-| `location.png` | Location reminder circle on the map |
-| `note.png` | Note with text, a drawing and a voice recording |
-| `alarm.png` | Full-screen alarm with snooze buttons |
-| `calendar.png` | Calendar month view |
+| `today.jpg` | Today screen with progress, streak and tasks |
+| `task-editor.jpg` | Task editor: alert style and repeat |
+| `location.jpg` | Location reminder circle on the map |
+| `note.jpg` | Note with a checklist, a voice recording and a drawing |
+| `alarm.jpg` | Full-screen alarm with snooze buttons |
+| `calendar.jpg` | Calendar month view |
 
-Portrait phone screenshots, PNG or JPG, around 1080 px wide.
+Retake them on the emulator when the UI changes noticeably; never use screenshots from a personal device.

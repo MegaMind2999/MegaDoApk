@@ -25,16 +25,14 @@ MegaDo puts your to-do list, your notes and your reminders in one place. Add a t
 
 Notes can mix text, checklists, photos, hand drawings and voice recordings. Everything lives on your device, and if you use more than one, MegaDo keeps your phone and tablet in sync through a hidden folder in your own Google Drive.
 
-<!-- Screenshots: uncomment once the images are in screenshots/ (see screenshots/README.md).
 <p align="center">
-  <img src="screenshots/today.png" width="200" alt="Today screen">
-  <img src="screenshots/task-editor.png" width="200" alt="Task editor with reminder options">
-  <img src="screenshots/location.png" width="200" alt="Location reminder on a map">
-  <img src="screenshots/note.png" width="200" alt="Note with a drawing and voice recording">
-  <img src="screenshots/alarm.png" width="200" alt="Full-screen alarm">
-  <img src="screenshots/calendar.png" width="200" alt="Calendar">
+  <img src="screenshots/today.jpg" width="200" alt="Today screen">
+  <img src="screenshots/task-editor.jpg" width="200" alt="Task editor with reminder options">
+  <img src="screenshots/location.jpg" width="200" alt="Location reminder on a map">
+  <img src="screenshots/note.jpg" width="200" alt="Note with a drawing and voice recording">
+  <img src="screenshots/alarm.jpg" width="200" alt="Full-screen alarm">
+  <img src="screenshots/calendar.jpg" width="200" alt="Calendar">
 </p>
--->
 
 ## Features
 
