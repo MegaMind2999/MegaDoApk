@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://megamind2999.github.io/megadoapk/sitemap.xml
+Sitemap: https://megamind2999.github.io/MegaDoApk/sitemap.xml

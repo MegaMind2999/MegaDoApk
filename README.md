@@ -12,7 +12,7 @@ Alarms with snooze · location reminders · notes with photos, drawings and voic
   &nbsp;·&nbsp;
   <a href="https://github.com/MegaMind2999/megadoapk/releases/latest">Release notes</a>
   &nbsp;·&nbsp;
-  <a href="https://megamind2999.github.io/megadoapk/">Website</a>
+  <a href="https://megamind2999.github.io/MegaDoApk/">Website</a>
 </p>
 
 <p align="center">Free · No ads · No tracking · Android 7.0+ · phones and tablets</p>
@@ -76,8 +76,8 @@ Open **Settings → Sync → Sync with Google Drive** on each device and choose 
 
 ## Privacy and terms
 
-- [Privacy Policy](https://megamind2999.github.io/megadoapk/privacy.html)
-- [Terms of Use](https://megamind2999.github.io/megadoapk/terms.html)
+- [Privacy Policy](https://megamind2999.github.io/MegaDoApk/privacy.html)
+- [Terms of Use](https://megamind2999.github.io/MegaDoApk/terms.html)
 
 ## Feedback
 
