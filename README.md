@@ -36,8 +36,8 @@ Open **Settings → Sync → Sync with Google Drive** on each device and pick th
 
 ## Privacy and terms
 
-- [Privacy Policy](https://megamind2999.github.io/MegaDo/privacy.html) ([source](privacy.html))
-- [Terms of Use](https://megamind2999.github.io/MegaDo/terms.html) ([source](terms.html))
+- [Privacy Policy](https://megamind2999.github.io/megadoapk/privacy.html) ([source](privacy.html))
+- [Terms of Use](https://megamind2999.github.io/megadoapk/terms.html) ([source](terms.html))
 
 ## Feedback
 
