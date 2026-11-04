@@ -46,3 +46,14 @@ nav a { text-decoration: none; }
 .card h3 { margin: 0 0 4px; font-size: 1.02rem; }
 .card p { margin: 0; color: var(--muted); font-size: .95rem; }
 footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0 6px; }
+.actions .button { margin-top: 0; }
+.button.ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); padding: 10px 20px; }
+.small { font-size: .9rem; }
+section { margin-top: 40px; }
+section h3 { font-size: 1rem; margin: 18px 0 2px; }
+.grid .card h3 { margin: 0 0 4px; }
+.shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+.shots figure { margin: 0; }
+.shots img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); display: block; }
+.shots figcaption { text-align: center; color: var(--muted); font-size: .9rem; margin-top: 6px; }
