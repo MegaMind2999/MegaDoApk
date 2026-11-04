@@ -9,7 +9,7 @@
 <link rel="canonical" href="https://megamind2999.github.io/MegaDoApk/">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
-<meta name="theme-color" content="#6a4df5">
+<meta name="theme-color" content="#0b0a16">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="MegaDo: tasks, notes and reminders for Android">
@@ -28,103 +28,238 @@
   "applicationCategory": "ProductivityApplication",
   "operatingSystem": "Android 7.0 or later",
   "url": "https://megamind2999.github.io/MegaDoApk/",
-  "downloadUrl": "https://github.com/MegaMind2999/megadoapk/releases/latest/download/MegaDo.apk",
-  "installUrl": "https://github.com/MegaMind2999/megadoapk/releases/latest",
+  "downloadUrl": "https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk",
+  "installUrl": "https://github.com/MegaMind2999/MegaDoApk/releases/latest",
   "image": "https://megamind2999.github.io/MegaDoApk/icon.png",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "author": { "@type": "Person", "name": "MegaMind" }
 }
 </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
-<main>
-<nav><a href="index.html">Home</a><a href="#features">Features</a><a href="#download">Download</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+<div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+<div class="stars" aria-hidden="true"></div>
 
-<header class="hero">
-  <img src="icon.png" alt="MegaDo app icon" width="96" height="96">
-  <div>
-    <h1>MegaDo</h1>
-    <p class="tag">Tasks, notes and reminders for Android that never let anything slip, with optional sync between your devices through your own Google Drive.</p>
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <g id="i-check" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></g>
+    <g id="i-spark" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2z"/><path d="M19 3v4M17 5h4"/></g>
+    <g id="i-bell" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></g>
+    <g id="i-alarm" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M5 3L2 6M22 6l-3-3"/></g>
+    <g id="i-pin" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></g>
+    <g id="i-pen" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></g>
+    <g id="i-mic" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M19 10a7 7 0 0 1-14 0M12 19v3"/></g>
+    <g id="i-cloud" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H7a5 5 0 1 1 1.6-9.7A6 6 0 0 1 20 11a4 4 0 0 1-2.5 8z"/><path d="M9.5 14.5l2 2 3.5-3.5"/></g>
+    <g id="i-cal" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></g>
+    <g id="i-grid" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></g>
+    <g id="i-repeat" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></g>
+    <g id="i-palette" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 0 0 20c1.1 0 2-.9 2-2 0-.5-.2-1-.5-1.3-.3-.4-.5-.8-.5-1.3 0-1.1.9-2 2-2h2.3A5.7 5.7 0 0 0 22 9.7C22 5.4 17.5 2 12 2z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7" r="1"/></g>
+    <g id="i-battery" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="17" height="10" rx="2"/><path d="M22 11v2M10.5 9l-2 3h3l-2 3"/></g>
+    <g id="i-box" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/></g>
+    <g id="i-shield" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></g>
+    <g id="i-down" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></g>
+  </defs>
+</svg>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="icon.png" alt="" width="34" height="34">MegaDo</a>
+    <nav class="links"><a href="#features">Features</a><a href="#reminders">Reminders</a><a href="#sync">Sync</a><a href="#faq">FAQ</a></nav>
+    <a class="btn" href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk"><svg viewBox="0 0 24 24"><use href="#i-down"/></svg>Download</a>
   </div>
 </header>
 
-<p class="actions">
-  <a class="button" href="https://github.com/MegaMind2999/megadoapk/releases/latest/download/MegaDo.apk">Download MegaDo APK</a>
-  <a class="button ghost" href="https://github.com/MegaMind2999/megadoapk/releases/latest">All releases &amp; changelog</a>
-</p>
-<p class="muted small">Free · No ads · No tracking · Android 7.0 and newer · phones and tablets</p>
+<main>
+<div class="wrap">
 
-<section id="about">
-  <h2>What is MegaDo?</h2>
-  <p>MegaDo is a personal organizer for Android that puts your to-do list, your notes and your reminders in one place. Add a task in plain words like <i>"Call mom tomorrow 5pm"</i> and MegaDo fills in the date, time and reminder for you. Choose how loudly each reminder gets your attention, from a quiet notification to a full-screen alarm, snooze it for as long as you like, or have it remind you when you arrive somewhere instead of at a time.</p>
-  <p>Your notes can mix text, checklists, photos, hand drawings and voice recordings. Everything lives on your device, and if you use more than one, MegaDo keeps your phone and tablet in sync through a hidden folder in your own Google Drive.</p>
-</section>
+  <section class="hero" aria-labelledby="title">
+    <div>
+      <span class="eyebrow">Free for Android</span>
+      <h1 id="title">Never let anything <span class="grad-text">slip again.</span></h1>
+      <p class="lead">MegaDo puts your to-dos, notes and reminders in one beautiful app. Alarms that actually get your attention, reminders that trigger when you arrive somewhere, and notes with photos, drawings and voice, synced between your phone and tablet.</p>
+      <div class="actions">
+        <a class="btn" href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk"><svg viewBox="0 0 24 24"><use href="#i-down"/></svg>Download MegaDo APK</a>
+        <a class="btn ghost" href="https://github.com/MegaMind2999/MegaDoApk/releases/latest">Release notes</a>
+      </div>
+      <div class="pills">
+        <span class="pill"><b>Free</b> forever</span>
+        <span class="pill"><b>No</b> ads or tracking</span>
+        <span class="pill">Android <b>7.0+</b></span>
+        <span class="pill">Phones &amp; <b>tablets</b></span>
+      </div>
+    </div>
 
-<section id="features">
-  <h2>Features</h2>
-  <div class="grid">
-    <div class="card"><h3>To-dos that fit your day</h3><p>Lists, subtasks, priorities, tags and pinning. A Today view with overdue, today and the next 7 days, plus your streak and weekly progress.</p></div>
-    <div class="card"><h3>Quick add in plain words</h3><p>Type "Groceries every week" or "Standup every weekday at 9:30" and MegaDo sets the date, repeat and reminder.</p></div>
-    <div class="card"><h3>Reminders your way</h3><p>Pick an alert style per reminder: silent, notification, loud, or a full-screen alarm that rings until you respond.</p></div>
-    <div class="card"><h3>Snooze and repeat freely</h3><p>Snooze for minutes, hours or a custom time. Repeat every few minutes, hourly, daily, weekly on chosen days, monthly or yearly, with an optional end date.</p></div>
-    <div class="card"><h3>Keep reminding until done</h3><p>Turn on nagging and MegaDo re-alerts every few minutes until you mark the task done.</p></div>
-    <div class="card"><h3>Location reminders</h3><p>Draw a circle on the map and get reminded when you arrive at or leave a place, like the supermarket or the office.</p></div>
-    <div class="card"><h3>Rich notes</h3><p>Combine text, checklists, photos, camera shots, drawings and voice recordings in a single note. Pin, color, tag and archive notes.</p></div>
-    <div class="card"><h3>Draw and record</h3><p>A full drawing canvas with brushes and colors, and a voice recorder with waveform playback, right inside your notes.</p></div>
-    <div class="card"><h3>Calendar and search</h3><p>See tasks and reminders by month or week, and find anything instantly across tasks and notes.</p></div>
-    <div class="card"><h3>Home-screen widget</h3><p>Check off today's tasks straight from your home screen.</p></div>
-    <div class="card"><h3>Sync your devices</h3><p>Turn on Google Drive sync on your phone and tablet and changes flow both ways, including photos, drawings and recordings.</p></div>
-    <div class="card"><h3>Backup and trash</h3><p>Export everything to a single file and restore it any time. Deleted items wait 30 days in the trash.</p></div>
-    <div class="card"><h3>Beautiful themes</h3><p>Light and dark modes, accent colors and animated backgrounds, with layouts made for both phones and tablets.</p></div>
-    <div class="card"><h3>Gentle on your battery</h3><p>No constant polling, batched background work, and animations that pause when you aren't looking or when battery saver is on.</p></div>
-    <div class="card"><h3>Private by design</h3><p>No accounts, ads, analytics or servers. Your data stays on your devices and, if you choose, in your own Google Drive.</p></div>
+    <div class="stage" aria-hidden="true">
+      <div class="glow"></div>
+      <div class="phone">
+        <div class="screen">
+          <div class="notch"></div>
+          <div class="app-date">Wednesday · November 4</div>
+          <div class="app-hello">Good morning ☀️</div>
+          <div class="hero-card">
+            <div class="ring"></div>
+            <div>
+              <small>Today's progress</small>
+              <strong>3 of 5 done</strong><br>
+              <span class="streak">🔥 6-day streak</span>
+              <div class="bars"><i style="height:40%"></i><i style="height:70%"></i><i style="height:55%"></i><i style="height:90%"></i><i style="height:65%"></i><i style="height:80%"></i><i class="on" style="height:60%"></i></div>
+            </div>
+          </div>
+          <div class="quick"><span>✨ <b>Gym every Mon</b> 7am…</span><span>➤</span></div>
+          <div class="section-label">Today</div>
+          <div class="task">
+            <div class="check"></div>
+            <div><p>Stretch break</p><div class="chips"><span class="chip a">⏰ 11:00 · Alarm</span><span class="chip r">↻ Hourly</span></div></div>
+          </div>
+          <div class="task">
+            <div class="check"></div>
+            <div><p>Buy milk &amp; eggs</p><div class="chips"><span class="chip l">📍 Supermarket</span><span class="chip">#home</span></div></div>
+          </div>
+          <div class="task done">
+            <div class="check done"></div>
+            <div><p>Send the report</p><div class="chips"><span class="chip">Work</span></div></div>
+          </div>
+          <div class="fab">+</div>
+        </div>
+      </div>
+      <div class="float-card fc-1"><div class="ico i-amber"><svg viewBox="0 0 24 24"><use href="#i-alarm"/></svg></div><div><b>Stretch break</b><span>Snooze 5 min · 15 min · 1 h</span></div></div>
+      <div class="float-card fc-2"><div class="ico i-cyan"><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg></div><div><b>You arrived at Supermarket</b><span>Buy milk &amp; eggs</span></div></div>
+      <div class="float-card fc-3"><div class="ico i-green"><svg viewBox="0 0 24 24"><use href="#i-cloud"/></svg></div><div><b>Synced with your tablet</b><span>Just now · Google Drive</span></div></div>
+    </div>
+  </section>
+
+  <section id="features" class="center reveal">
+    <span class="eyebrow">Everything in one place</span>
+    <h2>Your tasks, notes and reminders, <span class="grad-text">finally together</span></h2>
+    <p class="lead">Built to be fast to use every day, beautiful to look at, and gentle on your battery.</p>
+  </section>
+  <div class="features">
+    <div class="feature reveal"><div class="ico i-violet"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></div><h3>To-dos that fit your day</h3><p>Lists, subtasks, priorities, tags and pins. A Today view with what's overdue, due today and coming up, plus your streak and weekly progress.</p></div>
+    <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg></div><h3>Quick add in plain words</h3><p>Type “Call mom tomorrow 5pm” or “Standup every weekday at 9:30” and MegaDo sets the date, time, repeat and reminder for you.</p></div>
+    <div class="feature reveal"><div class="ico i-cyan"><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg></div><h3>Location reminders</h3><p>Draw a circle on the map and get reminded when you arrive at or leave a place, like the supermarket, the gym or the office.</p></div>
+    <div class="feature reveal"><div class="ico i-blue"><svg viewBox="0 0 24 24"><use href="#i-pen"/></svg></div><h3>Notes with everything</h3><p>Mix text, checklists, photos, camera shots and hand drawings in one note. Pin, color, tag and archive them.</p></div>
+    <div class="feature reveal"><div class="ico i-amber"><svg viewBox="0 0 24 24"><use href="#i-mic"/></svg></div><h3>Voice notes</h3><p>Record your thoughts with a live waveform and play them back right inside your notes.</p></div>
+    <div class="feature reveal"><div class="ico i-green"><svg viewBox="0 0 24 24"><use href="#i-cal"/></svg></div><h3>Calendar &amp; search</h3><p>See everything by month or week, and find any task or note instantly.</p></div>
+    <div class="feature reveal"><div class="ico i-violet"><svg viewBox="0 0 24 24"><use href="#i-grid"/></svg></div><h3>Home-screen widget</h3><p>Check off today's tasks without opening the app, plus a quick-add tile.</p></div>
+    <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-palette"/></svg></div><h3>Stunning themes</h3><p>Light and dark modes, rich accent colors and animated backgrounds, with layouts made for phones and tablets.</p></div>
+    <div class="feature reveal"><div class="ico i-blue"><svg viewBox="0 0 24 24"><use href="#i-box"/></svg></div><h3>Backup &amp; trash</h3><p>Export everything to a single file and restore it any time. Deleted items wait 30 days in the trash.</p></div>
   </div>
-</section>
 
-<!-- Screenshots: hidden until the images are added to screenshots/ (see screenshots/README.md). -->
-<section id="screenshots" hidden>
-  <h2>Screenshots</h2>
-  <div class="shots">
-    <figure><img src="screenshots/today.png" alt="MegaDo Today screen with progress and upcoming tasks" loading="lazy"><figcaption>Today</figcaption></figure>
-    <figure><img src="screenshots/task-editor.png" alt="Task editor with reminder, alert style and repeat options" loading="lazy"><figcaption>Reminders your way</figcaption></figure>
-    <figure><img src="screenshots/location.png" alt="Location reminder circle on a map" loading="lazy"><figcaption>Location reminders</figcaption></figure>
-    <figure><img src="screenshots/note.png" alt="Note with a drawing and a voice recording" loading="lazy"><figcaption>Rich notes</figcaption></figure>
-    <figure><img src="screenshots/alarm.png" alt="Full-screen alarm with snooze options" loading="lazy"><figcaption>Alarms with snooze</figcaption></figure>
-    <figure><img src="screenshots/calendar.png" alt="Calendar month view with tasks" loading="lazy"><figcaption>Calendar</figcaption></figure>
+  <section id="reminders" class="reveal">
+    <div class="features" style="margin-top:0">
+      <div class="feature big">
+        <div>
+          <span class="eyebrow">Reminders your way</span>
+          <h2 style="font-size:clamp(1.6rem,3vw,2.2rem)">As gentle or as loud as <span class="grad-text">you need</span></h2>
+          <p style="margin-top:12px">Pick an alert style for each reminder. Snooze for minutes, hours or a custom time, repeat every few minutes up to yearly on the days you choose, and let MegaDo keep nudging you until it's done.</p>
+        </div>
+        <div class="levels">
+          <div class="level"><div class="meter"><i style="height:22%"></i></div>Silent<span>in the shade</span></div>
+          <div class="level"><div class="meter"><i style="height:48%"></i></div>Notify<span>with sound</span></div>
+          <div class="level"><div class="meter"><i style="height:74%"></i></div>Loud<span>pops up</span></div>
+          <div class="level hot"><div class="meter"><i style="height:100%"></i></div>Alarm<span>full screen</span></div>
+        </div>
+      </div>
+      <div class="feature"><div class="ico i-amber"><svg viewBox="0 0 24 24"><use href="#i-repeat"/></svg></div><h3>Repeat &amp; nag</h3><p>Hourly, daily, weekly on chosen days, monthly or yearly, with an end date. “Keep reminding me” re-alerts until you tick it off.</p>
+        <div class="tags"><span>Every 30 min</span><span>Daily 8:00</span><span>Mon · Wed · Fri</span><span>Monthly</span><span>Until done</span></div></div>
+    </div>
+  </section>
+
+  <section id="sync" class="center reveal">
+    <span class="eyebrow">Sync between devices</span>
+    <h2>Your phone and tablet, <span class="grad-text">always in step</span></h2>
+    <p class="lead">Two-way sync through a hidden folder in your own Google Drive, photos, drawings and recordings included.</p>
+  </section>
+  <div class="steps">
+    <div class="step reveal"><h3>Turn it on</h3><p>Open Settings → Sync on each device and pick the same Google account.</p></div>
+    <div class="step reveal"><h3>Work anywhere</h3><p>Add a task on your tablet, tick it off on your phone. Changes merge both ways, even offline.</p></div>
+    <div class="step reveal"><h3>Stays in sync</h3><p>MegaDo syncs when you open or leave the app and about once an hour, only when you're online.</p></div>
   </div>
-</section>
 
-<section id="download">
-  <h2>Download and install</h2>
-  <ol>
-    <li>Download <a href="https://github.com/MegaMind2999/megadoapk/releases/latest/download/MegaDo.apk">MegaDo.apk</a> (latest version) on your Android phone or tablet.</li>
-    <li>Open the file. If Android asks, allow installing apps from your browser or file manager.</li>
-    <li>To update later, download the newest APK and install it over the old one. Your data is kept.</li>
-  </ol>
-  <p>Older versions and release notes are on the <a href="https://github.com/MegaMind2999/megadoapk/releases">releases page</a>.</p>
-</section>
+  <div class="band reveal">
+    <div class="shield"><svg viewBox="0 0 24 24"><use href="#i-shield"/></svg></div>
+    <div>
+      <h2>Private by design</h2>
+      <p>No accounts, no ads, no analytics and no servers. Your data lives on your devices and, only if you choose, in your own Google Drive, where MegaDo can't see any of your other files.</p>
+      <ul><li>🔒 On-device storage</li><li>☁️ Your own Drive</li><li>🚫 No tracking</li><li>🔋 Battery friendly</li><li>📴 Works offline</li></ul>
+    </div>
+  </div>
 
-<section id="sync">
-  <h2>Syncing your phone and tablet</h2>
-  <p>Open <b>Settings → Sync → Sync with Google Drive</b> on each device and choose the same Google account. MegaDo only gets access to its own hidden folder in your Drive and can't see your other files. Your data goes straight from your device to your Drive and never to the developer. Sync runs when you open or leave the app and about once an hour in the background.</p>
-</section>
+  <!-- Screenshots: hidden until the images are added to screenshots/ (see screenshots/README.md). -->
+  <section id="screenshots" class="center" hidden>
+    <span class="eyebrow">Take a look</span>
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <figure><img src="screenshots/today.png" alt="MegaDo Today screen with progress and upcoming tasks" loading="lazy"><figcaption>Today</figcaption></figure>
+      <figure><img src="screenshots/task-editor.png" alt="Task editor with reminder, alert style and repeat options" loading="lazy"><figcaption>Reminders your way</figcaption></figure>
+      <figure><img src="screenshots/location.png" alt="Location reminder circle on a map" loading="lazy"><figcaption>Location reminders</figcaption></figure>
+      <figure><img src="screenshots/note.png" alt="Note with a drawing and a voice recording" loading="lazy"><figcaption>Rich notes</figcaption></figure>
+      <figure><img src="screenshots/alarm.png" alt="Full-screen alarm with snooze options" loading="lazy"><figcaption>Alarms with snooze</figcaption></figure>
+      <figure><img src="screenshots/calendar.png" alt="Calendar month view with tasks" loading="lazy"><figcaption>Calendar</figcaption></figure>
+    </div>
+  </section>
 
-<section id="faq">
-  <h2>Questions</h2>
-  <h3>Is MegaDo free?</h3>
-  <p>Yes. It's free, with no ads and no in-app purchases.</p>
-  <h3>Why isn't it on Google Play?</h3>
-  <p>MegaDo is distributed directly as an APK from this site and its GitHub releases.</p>
-  <h3>Does it work without internet?</h3>
-  <p>Yes. Everything works offline. Internet is only needed for maps, place search and Google Drive sync.</p>
-  <h3>Why do location reminders need "Allow all the time"?</h3>
-  <p>Android only lets an app notice that you arrived somewhere while it's closed if location access is allowed all the time. MegaDo uses Android's battery-efficient geofencing and never records where you go.</p>
-</section>
+  <section id="faq" class="center reveal">
+    <span class="eyebrow">Questions</span>
+    <h2>Good to know</h2>
+  </section>
+  <div class="faq">
+    <details><summary>Is MegaDo really free?</summary><p>Yes. It's free, with no ads, no subscriptions and no in-app purchases.</p></details>
+    <details><summary>How do I install it?</summary><p>Download <a href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk">MegaDo.apk</a> on your Android phone or tablet and open it. If Android asks, allow installing apps from your browser or file manager.</p></details>
+    <details><summary>How do updates work?</summary><p>MegaDo checks for a new version once a day and offers to download and install it for you. You can also check any time in Settings → Updates. Your tasks and notes are always kept.</p></details>
+    <details><summary>Why isn't it on Google Play?</summary><p>MegaDo is published directly as an APK on this site and its GitHub releases page.</p></details>
+    <details><summary>Does it work without internet?</summary><p>Yes, everything works offline. Internet is only used for maps, place search, Google Drive sync and checking for updates.</p></details>
+    <details><summary>Why do location reminders ask for “Allow all the time”?</summary><p>Android only lets an app notice that you arrived somewhere while it's closed if location is allowed all the time. MegaDo uses Android's battery-efficient geofencing and never records where you go.</p></details>
+  </div>
+
+  <section id="download" class="cta reveal">
+    <img src="icon.png" alt="MegaDo app icon" width="88" height="88">
+    <h2>Get MegaDo <span class="grad-text">today</span></h2>
+    <p class="lead" style="margin-inline:auto">Free for Android 7.0 and newer, on phones and tablets.</p>
+    <div class="actions">
+      <a class="btn" href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk"><svg viewBox="0 0 24 24"><use href="#i-down"/></svg>Download the latest APK</a>
+      <a class="btn ghost" href="https://github.com/MegaMind2999/MegaDoApk/releases">All versions</a>
+    </div>
+    <div class="install">
+      <div><b>1. Download</b>Get MegaDo.apk on your phone or tablet.</div>
+      <div><b>2. Install</b>Open it and allow installs from your browser if asked.</div>
+      <div><b>3. Stay updated</b>MegaDo offers new versions itself.</div>
+    </div>
+  </section>
+
+</div>
+</main>
 
 <footer>
-  <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a> · <a href="https://github.com/MegaMind2999/megadoapk/issues">Report a problem</a> · Contact: <a href="mailto:abdo.mohamed29999@gmail.com">abdo.mohamed29999@gmail.com</a>
+  <div class="wrap">
+    <a class="brand" href="./"><img src="icon.png" alt="" width="28" height="28">MegaDo</a>
+    <span>© 2026 MegaMind</span>
+    <nav>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="https://github.com/MegaMind2999/MegaDoApk/releases">Releases</a>
+      <a href="https://github.com/MegaMind2999/MegaDoApk/issues">Report a problem</a>
+    </nav>
+  </div>
 </footer>
-</main>
+
+<script>
+  // Fade sections in as they scroll into view.
+  (function () {
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    els.forEach(function (e) { io.observe(e); });
+  })();
+</script>
 </body>
 </html>

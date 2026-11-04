@@ -8,9 +8,9 @@
 Alarms with snooze · location reminders · notes with photos, drawings and voice · sync between devices through your own Google Drive</p>
 
 <p align="center">
-  <a href="https://github.com/MegaMind2999/megadoapk/releases/latest/download/MegaDo.apk"><b>⬇ Download MegaDo.apk (latest)</b></a>
+  <a href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk"><b>⬇ Download MegaDo.apk (latest)</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/MegaMind2999/megadoapk/releases/latest">Release notes</a>
+  <a href="https://github.com/MegaMind2999/MegaDoApk/releases/latest">Release notes</a>
   &nbsp;·&nbsp;
   <a href="https://megamind2999.github.io/MegaDoApk/">Website</a>
 </p>
@@ -66,7 +66,7 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 
 ## Install
 
-1. Download [**MegaDo.apk**](https://github.com/MegaMind2999/megadoapk/releases/latest/download/MegaDo.apk) on your Android phone or tablet.
+1. Download [**MegaDo.apk**](https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk) on your Android phone or tablet.
 2. Open it and, if Android asks, allow installing apps from your browser or file manager.
 3. To update, install the newer APK over the old one. Your data is kept.
 
@@ -81,7 +81,7 @@ Open **Settings → Sync → Sync with Google Drive** on each device and choose 
 
 ## Feedback
 
-Found a bug or have an idea? [Open an issue](https://github.com/MegaMind2999/megadoapk/issues) or email abdo.mohamed29999@gmail.com.
+Found a bug or have an idea? [Open an issue](https://github.com/MegaMind2999/MegaDoApk/issues).
 
 ---
 
