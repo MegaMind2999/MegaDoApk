@@ -41,6 +41,7 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 - Today view with overdue, today and the next 7 days, plus your streak and weekly progress
 - Quick add in plain words: "Groceries every week", "Standup every weekday at 9:30"
 - Calendar by month or week, and search across tasks and notes
+- Phone calendar: see your Google or phone calendar events next to your tasks, and optionally add dated tasks to your calendar
 - Home-screen widget to check off today's tasks
 
 **Reminders**
