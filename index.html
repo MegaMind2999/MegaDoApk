@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MegaDo</title>
+<meta name="description" content="Tasks, notes and reminders for Android, with optional sync through your own Google Drive.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+
+<div class="hero">
+  <img src="icon.png" alt="MegaDo icon">
+  <div>
+    <h1>MegaDo</h1>
+    <p class="tag">Tasks, notes and reminders for Android, with optional sync through your own Google Drive.</p>
+  </div>
+</div>
+
+<a class="button" id="download" href="#">Download the latest APK</a>
+
+<div class="grid">
+  <div class="card"><h3>To-dos that fit your day</h3><p>Lists, subtasks, priorities, tags, quick add in plain words, and repeating schedules.</p></div>
+  <div class="card"><h3>Reminders your way</h3><p>From a quiet notification to a full alarm, with snooze and repeat-until-done.</p></div>
+  <div class="card"><h3>Location reminders</h3><p>Draw a circle on the map and get reminded when you arrive or leave.</p></div>
+  <div class="card"><h3>Rich notes</h3><p>Text, checklists, photos, drawings and voice recordings in one note.</p></div>
+  <div class="card"><h3>Sync your devices</h3><p>Tablet and phone stay in step through a hidden folder in your own Google Drive.</p></div>
+  <div class="card"><h3>Private by design</h3><p>No ads, no tracking, no server. Your data stays on your devices and in your Drive.</p></div>
+</div>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a> · Contact: <a href="mailto:abdo.mohamed29999@gmail.com">abdo.mohamed29999@gmail.com</a>
+</footer>
+</main>
+<script>
+  // On GitHub Pages (user.github.io/repo/) point the button at that repo's latest release.
+  (function () {
+    var host = location.hostname, parts = location.pathname.split('/').filter(Boolean);
+    var a = document.getElementById('download');
+    if (/\.github\.io$/.test(host) && parts.length) {
+      a.href = 'https://github.com/' + host.split('.')[0] + '/' + parts[0] + '/releases/latest';
+    } else {
+      a.style.display = 'none';
+    }
+  })();
+</script>
+</body>
+</html>
