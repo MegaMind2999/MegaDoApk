@@ -5,7 +5,7 @@
 <h1 align="center">MegaDo</h1>
 
 <p align="center"><b>To-do list, notes and reminders for Android</b><br>
-Alarms with snooze · location reminders · notes with photos, drawings and voice · sync between devices through your own Google Drive</p>
+Alarms with snooze · clock with stopwatch and repeating timers · location reminders · notes with photos, drawings and voice · sync between devices through your own Google Drive</p>
 
 <p align="center">
   <a href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk"><b>⬇ Download MegaDo.apk (latest)</b></a>
@@ -21,7 +21,7 @@ Alarms with snooze · location reminders · notes with photos, drawings and voic
 
 ## What is MegaDo?
 
-MegaDo puts your to-do list, your notes and your reminders in one place. Add a task in plain words like *"Call mom tomorrow 5pm"* and MegaDo fills in the date, time and reminder. Choose how loudly each reminder gets your attention, from a quiet notification to a full-screen alarm, snooze it for as long as you like, or have it remind you when you arrive somewhere instead of at a time.
+MegaDo puts your to-do list, your notes, your reminders and your clock in one place. Type or say a task in plain words like *"Call mom tomorrow 5pm high"* and MegaDo fills in the date, time, priority and reminder. Choose how loudly each reminder gets your attention, from a quiet notification to a full-screen alarm, snooze it for as long as you like, or have it remind you when you arrive somewhere instead of at a time.
 
 Notes can mix text, checklists, photos, hand drawings and voice recordings. Everything lives on your device, and if you use more than one, MegaDo keeps your phone and tablet in sync through a hidden folder in your own Google Drive.
 
@@ -32,6 +32,9 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
   <img src="screenshots/note.jpg" width="200" alt="Note with a drawing and voice recording">
   <img src="screenshots/alarm.jpg" width="200" alt="Full-screen alarm">
   <img src="screenshots/calendar.jpg" width="200" alt="Calendar">
+  <img src="screenshots/clock-alarms.jpg" width="200" alt="Clock tab: alarms">
+  <img src="screenshots/clock-timers.jpg" width="200" alt="Running timers, one repeating">
+  <img src="screenshots/clock-floating.jpg" width="200" alt="Floating timer window over other apps">
 </p>
 
 ## Features
@@ -40,7 +43,8 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 - Lists, subtasks, priorities, tags and pinning
 - Today view with overdue, today and the next 7 days, plus your streak and weekly progress
 - Quick add in plain words: "Groceries every week", "Standup every weekday at 9:30"
-- Calendar by month or week, and search across tasks and notes
+- Quick add by voice with the phone's own speech recognizer: "Gym same day next week at 7 a.m. high"
+- Calendar by month or week (pull the month down to fill the screen with your events), and search across tasks and notes
 - Phone calendar: see your Google or phone calendar events next to your tasks, and optionally add dated tasks to your calendar
 - Home-screen widget to check off today's tasks
 
@@ -51,15 +55,23 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 - "Keep reminding me until done" re-alerts every few minutes
 - Location reminders: draw a circle on the map, get reminded when you arrive or leave
 
+**Clock**
+- Alarms: repeat days or a date, label, ringtone or silent, vibration, gradually louder, snooze length and limit, skip next, full screen or notification only
+- Stopwatch with laps, fastest and slowest marked
+- Several timers at once, quick starts and saved timers
+- Repeating timers ("every minute, 5 times" or endless) that ring until dismissed or just chime
+- Floating window for running timers over other apps, live notifications, and swipe to dismiss so nothing stops by accident
+
 **Notes**
 - Text, checklists, photos, camera shots, drawings and voice recordings in one note
 - Drawing canvas with brushes and colors; voice recorder with waveform playback
 - Pin, color, tag and archive
 
 **Everything else**
-- Two-way sync between devices through your own Google Drive, media included
+- Two-way sync between devices through your own Google Drive, media included; choose what syncs (tasks, notes, alarms, saved timers)
 - Backup to a single file and restore; trash keeps deleted items for 30 days
-- Light and dark themes, accent colors and animated backgrounds; phone and tablet layouts
+- Light and dark themes, 12 accent colors with a matching app icon and loading screen, animated backgrounds; phone and tablet layouts
+- Updates itself from GitHub; on Android 12+ later updates install without a prompt
 - Battery friendly: no polling, batched background work, animations pause when not visible
 - Private: no accounts, ads, analytics or servers
 

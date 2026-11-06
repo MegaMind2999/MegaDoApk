@@ -11,5 +11,8 @@ and no real locations (the map shows a public spot in Paris). 720 px wide JPGs.
 | `note.jpg` | Note with a checklist, a voice recording and a drawing |
 | `alarm.jpg` | Full-screen alarm with snooze buttons |
 | `calendar.jpg` | Calendar month view |
+| `clock-alarms.jpg` | Clock tab: alarms list with the next alarm |
+| `clock-timers.jpg` | Clock tab: a repeating timer (1 min × 5) and a Pomodoro running |
+| `clock-floating.jpg` | Floating timer window over the home screen |
 
 Retake them on the emulator when the UI changes noticeably; never use screenshots from a personal device.

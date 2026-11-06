@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MegaDo: To-do list, notes and reminders app for Android (free APK)</title>
-<meta name="description" content="MegaDo is a free Android app for to-dos, notes and reminders: alarms with snooze, location reminders on a map, notes with photos, drawings and voice recordings, and sync between devices through your own Google Drive. Download the APK.">
-<meta name="keywords" content="MegaDo, to-do list app, Android reminders, notes app, location reminder, alarm reminder, voice notes, drawing notes, Google Drive sync, APK download">
+<meta name="description" content="MegaDo is a free Android app for to-dos, notes and reminders: alarms with snooze, a clock with alarms, stopwatch and repeating timers, location reminders on a map, notes with photos, drawings and voice recordings, and sync between devices through your own Google Drive. Download the APK.">
+<meta name="keywords" content="MegaDo, to-do list app, Android reminders, notes app, alarm clock, stopwatch, interval timer, repeating timer, location reminder, alarm reminder, voice notes, drawing notes, Google Drive sync, APK download">
 <link rel="canonical" href="https://megamind2999.github.io/MegaDoApk/">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
@@ -64,6 +64,7 @@
     <g id="i-battery" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="17" height="10" rx="2"/><path d="M22 11v2M10.5 9l-2 3h3l-2 3"/></g>
     <g id="i-box" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/></g>
     <g id="i-shield" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></g>
+    <g id="i-timer" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="14" r="8"/><path d="M12 10v4l3 2M9 2h6M12 2v4"/></g>
     <g id="i-down" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></g>
   </defs>
 </svg>
@@ -145,6 +146,9 @@
       <figure><img src="screenshots/note.jpg" alt="Note with a drawing and a voice recording" loading="lazy"><figcaption>Rich notes</figcaption></figure>
       <figure><img src="screenshots/alarm.jpg" alt="Full-screen alarm with snooze options" loading="lazy"><figcaption>Alarms with snooze</figcaption></figure>
       <figure><img src="screenshots/calendar.jpg" alt="Calendar month view with tasks" loading="lazy"><figcaption>Calendar</figcaption></figure>
+      <figure><img src="screenshots/clock-alarms.jpg" alt="Clock tab with alarms for weekdays and weekends" loading="lazy"><figcaption>Alarms</figcaption></figure>
+      <figure><img src="screenshots/clock-timers.jpg" alt="Running timers, one repeating every minute five times" loading="lazy"><figcaption>Repeating timers</figcaption></figure>
+      <figure><img src="screenshots/clock-floating.jpg" alt="Floating timer window over the home screen" loading="lazy"><figcaption>Floating timers</figcaption></figure>
     </div>
   </section>
 
@@ -155,13 +159,15 @@
   </section>
   <div class="features">
     <div class="feature reveal"><div class="ico i-violet"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></div><h3>To-dos that fit your day</h3><p>Lists, subtasks, priorities, tags and pins. A Today view with what's overdue, due today and coming up, plus your streak and weekly progress.</p></div>
-    <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg></div><h3>Quick add in plain words</h3><p>Type “Call mom tomorrow 5pm” or “Standup every weekday at 9:30” and MegaDo sets the date, time, repeat and reminder for you.</p></div>
+    <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg></div><h3>Quick add in plain words, or by voice</h3><p>Type or say “Call mom same day next week at 5 pm high” and MegaDo sets the date, time, priority, repeat and reminder for you.</p></div>
+    <div class="feature reveal"><div class="ico i-amber"><svg viewBox="0 0 24 24"><use href="#i-alarm"/></svg></div><h3>A full clock</h3><p>Alarms with repeat days, ringtones, gradual volume and snooze; a stopwatch with laps; as many timers as you like. Dismiss with a swipe, never by accident.</p></div>
+    <div class="feature reveal"><div class="ico i-cyan"><svg viewBox="0 0 24 24"><use href="#i-timer"/></svg></div><h3>Repeating timers</h3><p>“Every minute, five times”: rounds that ring until dismissed or just chime, plus a floating window that shows them over your other apps.</p></div>
     <div class="feature reveal"><div class="ico i-cyan"><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg></div><h3>Location reminders</h3><p>Draw a circle on the map and get reminded when you arrive at or leave a place, like the supermarket, the gym or the office.</p></div>
     <div class="feature reveal"><div class="ico i-blue"><svg viewBox="0 0 24 24"><use href="#i-pen"/></svg></div><h3>Notes with everything</h3><p>Mix text, checklists, photos, camera shots and hand drawings in one note. Pin, color, tag and archive them.</p></div>
     <div class="feature reveal"><div class="ico i-amber"><svg viewBox="0 0 24 24"><use href="#i-mic"/></svg></div><h3>Voice notes</h3><p>Record your thoughts with a live waveform and play them back right inside your notes.</p></div>
-    <div class="feature reveal"><div class="ico i-green"><svg viewBox="0 0 24 24"><use href="#i-cal"/></svg></div><h3>Calendar &amp; search</h3><p>See everything by month or week, next to the events from your phone's calendar, and find any task or note instantly.</p></div>
+    <div class="feature reveal"><div class="ico i-green"><svg viewBox="0 0 24 24"><use href="#i-cal"/></svg></div><h3>Calendar &amp; search</h3><p>See everything by month or week, pull the month down to fill the screen with your events, and find any task or note instantly.</p></div>
     <div class="feature reveal"><div class="ico i-violet"><svg viewBox="0 0 24 24"><use href="#i-grid"/></svg></div><h3>Home-screen widget</h3><p>Check off today's tasks without opening the app, plus a quick-add tile.</p></div>
-    <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-palette"/></svg></div><h3>Stunning themes</h3><p>Light and dark modes, rich accent colors and animated backgrounds, with layouts made for phones and tablets.</p></div>
+    <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-palette"/></svg></div><h3>Stunning themes</h3><p>Light and dark modes, 12 accent colors with a matching app icon and loading screen, and animated backgrounds, for phones and tablets.</p></div>
     <div class="feature reveal"><div class="ico i-blue"><svg viewBox="0 0 24 24"><use href="#i-box"/></svg></div><h3>Backup &amp; trash</h3><p>Export everything to a single file and restore it any time. Deleted items wait 30 days in the trash.</p></div>
   </div>
 
