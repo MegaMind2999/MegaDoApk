@@ -90,6 +90,12 @@ Open **Settings → Sync → Sync with Google Drive** on each device and choose 
 - [Privacy Policy](https://megamind2999.github.io/MegaDoApk/privacy.html)
 - [Terms of Use](https://megamind2999.github.io/MegaDoApk/terms.html)
 
+## More from MegaMind
+
+<a href="https://megamind2999.github.io/MegaShareApk/"><img src="megashare.png" width="48" align="left" alt="MegaShare icon"></a>
+**[MegaShare](https://megamind2999.github.io/MegaShareApk/)**: share files from Android with any phone or computer over Wi-Fi or hotspot. They only need a browser: no app, no internet, no account.
+<br clear="left">
+
 ## Feedback
 
 Found a bug or have an idea? [Open an issue](https://github.com/MegaMind2999/MegaDoApk/issues).

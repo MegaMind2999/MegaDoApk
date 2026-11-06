@@ -254,6 +254,17 @@ footer a { color: var(--muted); }
 .doc li { margin: 6px 0; }
 @media (max-width: 600px) { .doc header, .doc article { padding-left: 20px; padding-right: 20px; } }
 
+/* ── "More from MegaMind" (same block as on MegaShare's site) ── */
+.promo { margin-top: 44px; display: grid; grid-template-columns: auto 1fr auto; gap: 26px; align-items: center; padding: 30px 34px; border-radius: 30px;
+  background: linear-gradient(135deg, rgba(139,92,246,.16), rgba(59,130,246,.08)); border: 1px solid rgba(167,139,250,.25); position: relative; overflow: hidden; }
+.promo::after { content: ""; position: absolute; width: 260px; height: 260px; right: -80px; top: -120px; border-radius: 50%; background: var(--grad); filter: blur(70px); opacity: .25; pointer-events: none; }
+.promo img { width: 96px; height: 96px; border-radius: 26px; box-shadow: 0 20px 44px -14px rgba(124,58,237,.9); }
+.promo h3 { font-size: 1.45rem; font-weight: 800; }
+.promo p { margin: 6px 0 0; color: var(--muted); }
+.promo .tags span { background: rgba(139,92,246,.14); color: #ddd6fe; border-color: rgba(167,139,250,.22); }
+.promo .actions { display: flex; flex-direction: column; gap: 10px; position: relative; z-index: 1; }
+@media (max-width: 820px) { .promo { grid-template-columns: 1fr; text-align: center; padding: 30px 22px; } .promo img { margin: 0 auto; } .promo .tags { justify-content: center; } .promo .actions { align-items: center; } }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .js .reveal { opacity: 1; transform: none; }
