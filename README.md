@@ -44,6 +44,7 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 - Today view with overdue, today and the next 7 days, plus your streak and weekly progress
 - Quick add in plain words: "Groceries every week", "Standup every weekday at 9:30"
 - Quick add by voice with the phone's own speech recognizer: "Gym same day next week at 7 a.m. high"
+- Quick add with places: "Buy milk at home", "Call Ali when I leave work", `notify me at the gym to "stretch first"`
 - Calendar by month or week (pull the month down to fill the screen with your events), and search across tasks and notes
 - Phone calendar: see your Google or phone calendar events next to your tasks, and optionally add dated tasks to your calendar
 - Home-screen widget to check off today's tasks
@@ -54,6 +55,8 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 - Repeat every few minutes, hourly, daily, weekly on chosen days, monthly or yearly, with an optional end date
 - "Keep reminding me until done" re-alerts every few minutes
 - Location reminders: draw a circle on the map, get reminded when you arrive or leave
+- Saved places: keep Home, Work, the gym and more (with other names like "house" or "office"), then use them in one tap or by name in quick add. Move a place and every reminder that uses it moves too
+- Usually goes off within about two minutes of arriving or leaving (up to about six if the phone has been still for a long time)
 
 **Clock**
 - Alarms: repeat days or a date, label, ringtone or silent, vibration, gradually louder, snooze length and limit, skip next, full screen or notification only
