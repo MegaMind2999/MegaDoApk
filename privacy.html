@@ -28,13 +28,13 @@
 <header>
   <span class="eyebrow">MegaDo</span>
   <h1>Privacy Policy</h1>
-  <p>Last updated: November 11, 2026</p>
+  <p>Last updated: November 20, 2026</p>
 </header>
 <article>
-<p>MegaDo is a personal to-do, notes and reminders app for Android. It has no accounts of its own, no ads, no analytics and no server. This page explains what data the app handles and where it goes.</p>
+<p>MegaDo is a personal to-do, notes and reminders app for Android, with a companion app for Windows. It has no accounts of its own, no ads, no analytics and no server. This page explains what data the app handles and where it goes.</p>
 
 <h2>Data stored on your device</h2>
-<p>Your tasks, lists, notes, checklists, photos, drawings, voice recordings and settings are stored only in the app's private storage on your device. The developer never receives them.</p>
+<p>Your tasks, lists, notes, checklists, photos, drawings, voice recordings and settings are stored only in the app's private storage on your device (on Windows, in your user profile's app data folder). The developer never receives them.</p>
 
 <h2>Google Drive sync (optional)</h2>
 <p>If you turn on sync, MegaDo asks Google for two permissions:</p>
@@ -52,11 +52,27 @@
 <h2>Phone calendar</h2>
 <p>Calendar access is asked for only if you turn on "Show phone calendar events" or "Add tasks to phone calendar" in Settings. MegaDo then reads your calendar events to show them in its Calendar screen, and, if you chose a calendar, adds, updates and removes events for your tasks in that calendar only. Calendar data stays on your device and in your own calendar accounts; it is never sent to the developer. Turning the option off removes the events MegaDo added.</p>
 
-<h2>Camera, microphone, notifications and alarms</h2>
-<p>The camera is used only when you take a photo for a note, and the microphone only while you record a voice note. Notification, alarm and full-screen permissions are used only to deliver the reminders you set.</p>
+<h2>Camera, microphone, sensors, notifications and alarms</h2>
+<p>The camera is used only when you take a photo for a note or while a camera tool is open (QR scanner, magnifier, mirror, heart rate, color picker, reading Morse light flashes). The microphone is used only while you record a voice note or while a sound tool is open (sound meter, tuner, hearing test). Motion and other sensors, and GPS for the speedometer and drag timer, are read only while that tool is on screen. Nothing they capture leaves your device. Notification, alarm and full-screen permissions are used only to deliver the reminders, alarms and timers you set.</p>
+
+<h2>Link previews in notes</h2>
+<p>When a note contains a web link, MegaDo loads that page once to show its title and picture in a preview card, as a browser would. The website sees an ordinary request from your device. Pages on your local network are never loaded this way, and previews are kept on your device only. You can turn this off in Settings ("Link previews in notes").</p>
+
+<h2>Tools that use the internet</h2>
+<p>These tools contact a service only while you use them (or, for notifications you turn on, at the times you choose). No account is used and nothing is sent to the developer.</p>
+<ul>
+  <li><b>Prayer times</b>: the free AlAdhan service receives your approximate location, rounded to about 1 km. An on-device calculation is used when you're offline. The azan reminder, if you turn it on, uses the times already saved on your device.</li>
+  <li><b>Markets</b>: prices come from Yahoo Finance's public market data; the request contains only the market symbols. If you turn on price notifications, MegaDo fetches only the items you chose, at the times you set.</li>
+  <li><b>Speed test</b>: downloads and uploads test data to Cloudflare's speed test servers (speed.cloudflare.com).</li>
+  <li><b>Network</b>: when you tap to show your public IP address, MegaDo asks api.ipify.org, which sees that address and nothing else.</li>
+  <li><b>Map distance &amp; area</b>: map images come from OpenStreetMap's tile servers, as described under Location.</li>
+</ul>
+
+<h2>PC remote, remote desktop and Wake PC</h2>
+<p>These tools talk directly to your own PC over your local network. Pairing details (the PC's name, local address, network card address and remote desktop password) come from the QR code you scan in MegaDo for Windows and are stored only on your phone. On Windows, Phone remote is off until you turn it on; it then listens on your local network and accepts only a phone that sends the pairing code. Remote desktop connects to the TightVNC server you install on the PC. Nothing goes through the internet or to the developer.</p>
 
 <h2>App updates</h2>
-<p>Once a day, and when you tap "Check for updates", MegaDo asks GitHub for the latest release of the app. No personal data is sent with this request. Downloaded updates are installed only after you confirm.</p>
+<p>Once a day, and when you tap "Check for updates", MegaDo (on Android and Windows) asks GitHub for the latest release of the app. No personal data is sent with this request. Downloaded updates are installed only after you confirm.</p>
 
 <h2>Backups</h2>
 <p>Backups you export are saved where you choose. They contain your data and are not sent anywhere by MegaDo.</p>

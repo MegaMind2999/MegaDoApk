@@ -4,18 +4,20 @@
 
 <h1 align="center">MegaDo</h1>
 
-<p align="center"><b>To-do list, notes and reminders for Android</b><br>
-Alarms with snooze · clock with stopwatch and repeating timers · location reminders · notes with photos, drawings and voice · sync between devices through your own Google Drive</p>
+<p align="center"><b>To-do list, notes, reminders and 59 tools for Android and Windows</b><br>
+Alarms with snooze · clock with repeating timers · location reminders · notes with photos, drawings, voice and Markdown · document scanner · market prices · PC remote · sync through your own Google Drive</p>
 
 <p align="center">
   <a href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk"><b>⬇ Download MegaDo.apk (latest)</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo-Setup.exe"><b>⬇ MegaDo for Windows</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/MegaMind2999/MegaDoApk/releases/latest">Release notes</a>
   &nbsp;·&nbsp;
   <a href="https://megamind2999.github.io/MegaDoApk/">Website</a>
 </p>
 
-<p align="center">Free · No ads · No tracking · Android 7.0+ · phones and tablets</p>
+<p align="center">Free · No ads · No tracking · Android 7.0+ · phones and tablets · Windows 10 and 11</p>
 
 ---
 
@@ -23,18 +25,23 @@ Alarms with snooze · clock with stopwatch and repeating timers · location remi
 
 MegaDo puts your to-do list, your notes, your reminders and your clock in one place. Type or say a task in plain words like *"Call mom tomorrow 5pm high"* and MegaDo fills in the date, time, priority and reminder. Choose how loudly each reminder gets your attention, from a quiet notification to a full-screen alarm, snooze it for as long as you like, or have it remind you when you arrive somewhere instead of at a time.
 
-Notes can mix text, checklists, photos, hand drawings and voice recordings. Everything lives on your device, and if you use more than one, MegaDo keeps your phone and tablet in sync through a hidden folder in your own Google Drive.
+Notes can mix text, checklists, photos, hand drawings, voice recordings and Markdown, and a photo of a page becomes a clean scan. A Tools tab holds 59 handy tools, from a QR scanner and prayer times to live market prices and a remote for your PC. Everything lives on your device, and if you use more than one, MegaDo keeps your phone, tablet and PC in sync through a hidden folder in your own Google Drive.
 
 <p align="center">
-  <img src="screenshots/today.jpg" width="200" alt="Today screen">
+  <img src="screenshots/today.jpg" width="200" alt="Today screen with quick access tools">
+  <img src="screenshots/quick-add.jpg" width="200" alt="Quick add guide">
   <img src="screenshots/task-editor.jpg" width="200" alt="Task editor with reminder options">
   <img src="screenshots/location.jpg" width="200" alt="Location reminder on a map">
-  <img src="screenshots/note.jpg" width="200" alt="Note with a drawing and voice recording">
+  <img src="screenshots/note.jpg" width="200" alt="Note with a photo, drawing and voice recording">
+  <img src="screenshots/note-markdown.jpg" width="200" alt="Markdown note">
+  <img src="screenshots/scan.jpg" width="200" alt="Scan and enhance a photo of a page">
   <img src="screenshots/alarm.jpg" width="200" alt="Full-screen alarm">
   <img src="screenshots/calendar.jpg" width="200" alt="Calendar">
   <img src="screenshots/clock-alarms.jpg" width="200" alt="Clock tab: alarms">
   <img src="screenshots/clock-timers.jpg" width="200" alt="Running timers, one repeating">
   <img src="screenshots/clock-floating.jpg" width="200" alt="Floating timer window over other apps">
+  <img src="screenshots/tools.jpg" width="200" alt="Tools tab">
+  <img src="screenshots/markets.jpg" width="200" alt="Markets">
 </p>
 
 ## Features
@@ -47,6 +54,7 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 - Quick add with places: "Buy milk at home", "Call Ali when I leave work", `notify me at the gym to "stretch first"`
 - Calendar by month or week (pull the month down to fill the screen with your events), and search across tasks and notes
 - Phone calendar: see your Google or phone calendar events next to your tasks, and optionally add dated tasks to your calendar
+- Quick add guide: tap the sparkle for everything it understands, with examples you can try
 - Home-screen widget to check off today's tasks
 
 **Reminders**
@@ -68,12 +76,33 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 **Notes**
 - Text, checklists, photos, camera shots, drawings and voice recordings in one note
 - Drawing canvas with brushes and colors; voice recorder with waveform playback
+- Markdown shows formatted (headings, lists, quotes, code blocks with copy), tappable links with preview cards
+- Scan & enhance: find the page in a photo, straighten it, and pick a look (Enhance, Magic color, Sharp text, Faint text) with brightness, contrast and sharpness; reduce photo sizes
+- Export a note as PDF
 - Pin, color, tag and archive
 
+**Tools (59)**
+- Measure: speedometer with four faces, drag timer (0–100, ¼ mile), compass, level, ruler, protractor, map distance & area, step counter
+- Sensors: G-force, metal detector, light meter, barometer, proximity, sensor dashboard
+- Camera: QR & barcode scanner, magnifier, mirror, heart rate, live color picker
+- Sound: sound meter, tuner, metronome, tone generator, sleep sounds, hearing test
+- Light & signals: flashlight with strobe, SOS and Morse, NFC reader, QR code maker
+- Time & prayer: focus timer, countdowns, prayer times with optional azan, Qibla
+- Calculate: calculator, unit converter, tip & percent, dates, color picker, GPA, BMI, loan, time zones, code converter, Roman numerals
+- Money & markets: USD/EGP and other currencies, gold per gram, EGX 30/70/100 and world markets, price notifications at times you choose
+- Generate & text: random, spin the wheel, team splitter, counter, password generator, word counter, case converter, text to speech, Morse translator (reads light flashes with the camera too)
+- Device & PC: battery, network, speed test, device info, PC remote (touchpad and keyboard), remote desktop (VNC), Wake PC
+- Pin favourites: they show on Today, in the app icon's shortcuts and in the Tools widget; any tool can go on the home screen as its own icon
+
+**MegaDo for Windows**
+- Today, tasks and lists, calendar, notes (with Scan & enhance and PDF export), alarms, reminders and 41 of the tools
+- Same Google Drive sync as the phone; starts with Windows and waits in the tray; updates itself
+- Phone remote: control the PC from your phone over your own Wi-Fi
+
 **Everything else**
-- Two-way sync between devices through your own Google Drive, media included; choose what syncs (tasks, notes, alarms, saved timers)
+- Two-way sync between your phone, tablet and PC through your own Google Drive, media included; choose what syncs (tasks, notes, alarms, saved timers)
 - Backup to a single file and restore; trash keeps deleted items for 30 days
-- Light and dark themes, 12 accent colors with a matching app icon and loading screen, animated backgrounds; phone and tablet layouts
+- Light and dark themes, 16 accent colors with a matching app icon and loading screen, animated backgrounds; phone and tablet layouts
 - Updates itself from GitHub; on Android 12+ later updates install without a prompt
 - Battery friendly: no polling, batched background work, animations pause when not visible
 - Private: no accounts, ads, analytics or servers
@@ -82,9 +111,11 @@ Notes can mix text, checklists, photos, hand drawings and voice recordings. Ever
 
 1. Download [**MegaDo.apk**](https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk) on your Android phone or tablet.
 2. Open it and, if Android asks, allow installing apps from your browser or file manager.
-3. To update, install the newer APK over the old one. Your data is kept.
+3. MegaDo offers new versions itself (Settings → Updates). Your data is kept.
 
-## Sync your phone and tablet
+On Windows 10 or 11, download and run [**MegaDo-Setup.exe**](https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo-Setup.exe).
+
+## Sync your phone, tablet and PC
 
 Open **Settings → Sync → Sync with Google Drive** on each device and choose the same Google account. MegaDo only gets access to its own hidden folder in your Drive and can't see your other files. Your data goes straight to your Drive and never to the developer.
 
