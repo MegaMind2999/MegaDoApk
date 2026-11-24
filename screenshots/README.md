@@ -20,5 +20,6 @@ images). 720 px wide JPGs. `alarm`, `clock-timers` and `clock-floating` are from
 | `clock-floating.jpg` | Floating timer window over the home screen |
 | `tools.jpg` | Tools tab: 59 tools, pinned favourites |
 | `markets.jpg` | Markets: EGX indices and currencies (live prices on the day it was taken) |
+| `windows-today.jpg` | MegaDo for Windows: Today screen (taken by the owner on their PC; shows only the public name MegaMind and default lists). Cropped to the window, 1239×820 |
 
 Retake them on the emulator when the UI changes noticeably; never use screenshots from a personal device.

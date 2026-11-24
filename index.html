@@ -220,6 +220,7 @@
       <a class="btn" href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo-Setup.exe"><svg viewBox="0 0 24 24"><use href="#i-win"/></svg>Download for Windows</a>
     </div>
   </section>
+  <figure class="desk-shot reveal"><img src="screenshots/windows-today.jpg" alt="MegaDo for Windows: Today screen with progress, the last 7 days, quick add, and a sidebar with tasks, calendar, notes, habits, alarms, tools and lists" width="1239" height="820" loading="lazy"><figcaption>MegaDo for Windows</figcaption></figure>
   <div class="steps">
     <div class="step reveal"><h3>Install your way</h3><p>Just for you, or for everyone on the PC in Program Files. You can also pick your own folder.</p></div>
     <div class="step reveal"><h3>Sign in once</h3><p>Use the same Google account as on your phone, and your tasks and notes appear on both.</p></div>
@@ -351,7 +352,7 @@
 <script>
   // Screenshot viewer: click a screenshot to see it big. Arrows/swipe for next, Esc or tap outside to close.
   (function () {
-    var imgs = Array.prototype.slice.call(document.querySelectorAll('.shots img'));
+    var imgs = Array.prototype.slice.call(document.querySelectorAll('.shots img, .desk-shot img'));
     if (!imgs.length) return;
     var svg = function (d) { return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + d + '"/></svg>'; };
     var lb = document.createElement('div');

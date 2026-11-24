@@ -269,6 +269,11 @@ footer a { color: var(--muted); }
 
 /* ── Screenshot viewer (click a screenshot to see it big) ── */
 .shots img { cursor: zoom-in; }
+/* Windows app screenshot: one wide image under the Windows heading. */
+.desk-shot { margin: 40px auto 0; max-width: 980px; }
+.desk-shot img { width: 100%; height: auto; display: block; border-radius: 14px; border: 1px solid var(--line); cursor: zoom-in;
+  box-shadow: 0 40px 80px -36px rgba(0,0,0,.95), 0 0 0 1px rgba(255,255,255,.03); }
+.desk-shot figcaption { text-align: center; color: var(--muted); font-size: .9rem; margin-top: 12px; font-weight: 600; }
 .lb { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 24px 72px;
   background: rgba(6, 5, 14, .88); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   opacity: 0; transition: opacity .2s ease; }
