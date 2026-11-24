@@ -4,7 +4,7 @@
 
 <h1 align="center">MegaDo</h1>
 
-<p align="center"><b>To-do list, notes, reminders and 75 tools for Android and Windows</b><br>
+<p align="center"><b>To-do list, notes, reminders and 76 tools for Android and Windows</b><br>
 Alarms with snooze · clock with repeating timers · location reminders · notes with photos, drawings, voice and Markdown · document scanner · market prices · PC remote · sync through your own Google Drive</p>
 
 <p align="center">
@@ -25,7 +25,7 @@ Alarms with snooze · clock with repeating timers · location reminders · notes
 
 MegaDo puts your to-do list, your notes, your reminders and your clock in one place. Type or say a task in plain words like *"Call mom tomorrow 5pm high"* and MegaDo fills in the date, time, priority and reminder. Choose how loudly each reminder gets your attention, from a quiet notification to a full-screen alarm, snooze it for as long as you like, or have it remind you when you arrive somewhere instead of at a time.
 
-Notes can mix text, checklists, photos, hand drawings, voice recordings and Markdown, and a photo of a page becomes a clean scan. A Tools tab holds 75 handy tools, from a QR scanner and prayer times to live market prices and a remote for your PC. Everything lives on your device, and if you use more than one, MegaDo keeps your phone, tablet and PC in sync through a hidden folder in your own Google Drive.
+Notes can mix text, checklists, photos, hand drawings, voice recordings and Markdown, and a photo of a page becomes a clean scan. A Tools tab holds 76 handy tools, from a QR scanner and prayer times to live market prices and a remote for your PC. Everything lives on your device, and if you use more than one, MegaDo keeps your phone, tablet and PC in sync through a hidden folder in your own Google Drive.
 
 <p align="center">
   <img src="screenshots/today.jpg" width="200" alt="Today screen with quick access tools">
@@ -81,10 +81,10 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Export a note as PDF
 - Pin, color, tag and archive
 
-**Tools (75)**
+**Tools (76)**
 - Measure: speedometer with four faces, drag timer (0–100, ¼ mile), compass, level, ruler, protractor, map distance & area, step counter
 - Sensors: G-force, metal detector, light meter, barometer, proximity, sensor dashboard
-- Camera: QR & barcode scanner, text scanner (English and Arabic), magnifier, mirror, heart rate, live color picker
+- Camera: QR & barcode scanner, text scanner (English and Arabic), magnifier, mirror, heart rate, live color picker, QR transfer (text, photos, videos and files as moving QR codes, phone to phone or PC, no internet)
 - Sound: sound meter, tuner, metronome, tone generator, sleep sounds, hearing test
 - Light & signals: flashlight with strobe, SOS and Morse, NFC reader, QR code maker
 - Time & prayer: focus timer, countdowns, breathing exercises, chess clock, prayer times with optional azan, Qibla
@@ -95,7 +95,7 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Pin favourites: they show on Today, in the app icon's shortcuts and in the Tools widget; any tool can go on the home screen as its own icon
 
 **MegaDo for Windows**
-- Today, tasks and lists, calendar, notes (with Scan & enhance and PDF export), alarms, reminders and 54 of the tools
+- Today, tasks and lists, calendar, notes (with Scan & enhance and PDF export), alarms, reminders and 55 of the tools
 - Same Google Drive sync as the phone; starts with Windows and waits in the tray; updates itself
 - Phone remote: control the PC from your phone over your own Wi-Fi
 
