@@ -162,6 +162,8 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.8rem); font-weight: 800; margin-top: 12px; 
 .feature .ico svg { width: 24px; height: 24px; }
 .feature h3 { font-size: 1.12rem; font-weight: 800; margin-bottom: 6px; }
 .feature p { margin: 0; color: var(--muted); font-size: .95rem; }
+.feature h3 .new { display: inline-block; vertical-align: middle; margin-left: 6px; padding: 2px 8px; border-radius: 999px; background: var(--grad);
+  color: #fff; font-size: .68rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 .feature.big { grid-column: span 2; display: grid; grid-template-columns: 1fr 1.1fr; gap: 28px; align-items: center; }
 @media (max-width: 960px) { .features { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 640px) { .features { grid-template-columns: 1fr; } .feature.big { grid-column: auto; grid-template-columns: 1fr; } }

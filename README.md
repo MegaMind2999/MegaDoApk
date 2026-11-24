@@ -4,7 +4,7 @@
 
 <h1 align="center">MegaDo</h1>
 
-<p align="center"><b>To-do list, notes, reminders and 76 tools for Android and Windows</b><br>
+<p align="center"><b>To-do list, notes, reminders and 77 tools for Android and Windows</b><br>
 Alarms with snooze · clock with repeating timers · location reminders · notes with photos, drawings, voice and Markdown · document scanner · market prices · PC remote · sync through your own Google Drive</p>
 
 <p align="center">
@@ -25,7 +25,7 @@ Alarms with snooze · clock with repeating timers · location reminders · notes
 
 MegaDo puts your to-do list, your notes, your reminders and your clock in one place. Type or say a task in plain words like *"Call mom tomorrow 5pm high"* and MegaDo fills in the date, time, priority and reminder. Choose how loudly each reminder gets your attention, from a quiet notification to a full-screen alarm, snooze it for as long as you like, or have it remind you when you arrive somewhere instead of at a time.
 
-Notes can mix text, checklists, photos, hand drawings, voice recordings and Markdown, and a photo of a page becomes a clean scan. A Tools tab holds 76 handy tools, from a QR scanner and prayer times to live market prices and a remote for your PC. Everything lives on your device, and if you use more than one, MegaDo keeps your phone, tablet and PC in sync through a hidden folder in your own Google Drive.
+Notes can mix text, checklists, photos, hand drawings, voice recordings and Markdown, and a photo of a page becomes a clean scan. A Tools tab holds 77 handy tools, from a QR scanner and prayer times to offline live captions, live market prices and a remote desktop for your PC. Everything lives on your device, and if you use more than one, MegaDo keeps your phone, tablet and PC in sync through a hidden folder in your own Google Drive.
 
 <p align="center">
   <img src="screenshots/today.jpg" width="200" alt="Today screen with quick access tools">
@@ -52,7 +52,7 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Quick add in plain words: "Groceries every week", "Standup every weekday at 9:30"
 - Quick add by voice with the phone's own speech recognizer: "Gym same day next week at 7 a.m. high"
 - Quick add with places: "Buy milk at home", "Call Ali when I leave work", `notify me at the gym to "stretch first"`
-- Calendar by month or week (pull the month down to fill the screen with your events), and search across tasks and notes
+- Calendar by month or week (pull the month down to fill the screen with your events), and search across tasks, notes and tools
 - Phone calendar: see your Google or phone calendar events next to your tasks, and optionally add dated tasks to your calendar
 - Quick add guide: tap the sparkle for everything it understands, with examples you can try
 - Home-screen widget to check off today's tasks
@@ -76,12 +76,14 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 **Notes**
 - Text, checklists, photos, camera shots, drawings and voice recordings in one note
 - Drawing canvas with brushes and colors; voice recorder with waveform playback
+- Voice notes to text on the phone, with no internet (Arabic and English)
 - Markdown shows formatted (headings, lists, quotes, code blocks with copy), tappable links with preview cards
 - Scan & enhance: find the page in a photo, straighten it, and pick a look (Enhance, Magic color, Sharp text, Faint text) with brightness, contrast and sharpness; reduce photo sizes
 - Export a note as PDF
 - Pin, color, tag and archive
 
-**Tools (76)**
+**Tools (77)**
+- Live transcription (new): offline speech to text from the microphone, phone audio (Android 10+) or an audio/video file; Arabic and English or translate to English; floating captions over other apps; save as a note
 - Measure: speedometer with four faces, drag timer (0–100, ¼ mile), compass, level, ruler, protractor, map distance & area, step counter
 - Sensors: G-force, metal detector, light meter, barometer, proximity, sensor dashboard
 - Camera: QR & barcode scanner, text scanner (English and Arabic), magnifier, mirror, heart rate, live color picker, QR transfer (text, photos, videos and files as moving QR codes, phone to phone or PC, no internet)
@@ -91,13 +93,14 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Calculate: calculator, unit converter, tip & percent, dates, color picker, GPA, BMI, loan, time zones, code converter, Roman numerals
 - Money & markets: currency converter (160 currencies, works offline), USD/EGP and other currencies, gold per gram, EGX 30/70/100 and world markets, price notifications at times you choose
 - Generate & text: random, spin the wheel, team splitter, score keeper, counter, password generator, word counter, case converter, text to speech, Morse translator (reads light flashes with the camera too), hash generator
-- Device & PC: battery, network, speed test, network tools (ping, traceroute, DNS, port check), Wi-Fi analyzer, GPS status, Bluetooth finder, LAN scanner (names and MACs, add a PC to Wake PC), screen test, phone checkup, storage, device info, PC remote (touchpad and keyboard), PC chat (text and files both ways, nothing kept), PC power (lock, sleep, restart, shut down), remote desktop (VNC), Wake PC
+- Device & PC: battery, network, speed test, network tools (ping, traceroute, DNS, port check), Wi-Fi analyzer, GPS status, Bluetooth finder, LAN scanner (names and MACs, add a PC to Wake PC), screen test, phone checkup, storage, device info, PC remote (touchpad and keyboard), PC chat (text and files both ways, nothing kept), PC power (lock, sleep, restart, shut down), remote desktop (to MegaDo for Windows' built-in server; saved PCs or connect once), Wake PC
 - Pin favourites: they show on Today, in the app icon's shortcuts and in the Tools widget; any tool can go on the home screen as its own icon
 
 **MegaDo for Windows**
-- Today, tasks and lists, calendar, notes (with Scan & enhance and PDF export), alarms, reminders and 55 of the tools
+- Today, tasks and lists, calendar, notes (with Scan & enhance and PDF export), alarms, reminders and 56 of the tools
 - Same Google Drive sync as the phone; starts with Windows and waits in the tray; updates itself
 - Phone remote: control the PC from your phone over your own Wi-Fi
+- Built-in remote desktop server (nothing else to install): permanent password for your own devices, one-time passwords for a single session, and an optional service for the sign-in screen, lock screen and admin prompts; Tools → Remote desktop connects to another PC
 
 **Everything else**
 - Two-way sync between your phone, tablet and PC through your own Google Drive, media included; choose what syncs (tasks, notes, alarms, saved timers)

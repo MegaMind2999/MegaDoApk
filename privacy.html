@@ -28,7 +28,7 @@
 <header>
   <span class="eyebrow">MegaDo</span>
   <h1>Privacy Policy</h1>
-  <p>Last updated: November 20, 2026</p>
+  <p>Last updated: November 24, 2026</p>
 </header>
 <article>
 <p>MegaDo is a personal to-do, notes and reminders app for Android, with a companion app for Windows. It has no accounts of its own, no ads, no analytics and no server. This page explains what data the app handles and where it goes.</p>
@@ -53,7 +53,7 @@
 <p>Calendar access is asked for only if you turn on "Show phone calendar events" or "Add tasks to phone calendar" in Settings. MegaDo then reads your calendar events to show them in its Calendar screen, and, if you chose a calendar, adds, updates and removes events for your tasks in that calendar only. Calendar data stays on your device and in your own calendar accounts; it is never sent to the developer. Turning the option off removes the events MegaDo added.</p>
 
 <h2>Camera, microphone, sensors, notifications and alarms</h2>
-<p>The camera is used only when you take a photo for a note or while a camera tool is open (QR scanner, magnifier, mirror, heart rate, color picker, reading Morse light flashes). The microphone is used only while you record a voice note or while a sound tool is open (sound meter, tuner, hearing test). Motion and other sensors, and GPS for the speedometer and drag timer, are read only while that tool is on screen. Nothing they capture leaves your device. Notification, alarm and full-screen permissions are used only to deliver the reminders, alarms and timers you set.</p>
+<p>The camera is used only when you take a photo for a note or while a camera tool is open (QR scanner, magnifier, mirror, heart rate, color picker, reading Morse light flashes). The microphone is used only while you record a voice note, while a sound tool is open (sound meter, tuner, hearing test), or while Live transcription is listening. If you choose captions for phone audio, Android asks you first, and only the sound playing on the phone is used, until you stop. Speech is turned into text on your device; no audio or text is sent anywhere. Motion and other sensors, and GPS for the speedometer and drag timer, are read only while that tool is on screen. Nothing they capture leaves your device. Notification, alarm and full-screen permissions are used only to deliver the reminders, alarms and timers you set.</p>
 
 <h2>Link previews in notes</h2>
 <p>When a note contains a web link, MegaDo loads that page once to show its title and picture in a preview card, as a browser would. The website sees an ordinary request from your device. Pages on your local network are never loaded this way, and previews are kept on your device only. You can turn this off in Settings ("Link previews in notes").</p>
@@ -66,10 +66,11 @@
   <li><b>Speed test</b>: downloads and uploads test data to Cloudflare's speed test servers (speed.cloudflare.com).</li>
   <li><b>Network</b>: when you tap to show your public IP address, MegaDo asks api.ipify.org, which sees that address and nothing else.</li>
   <li><b>Map distance &amp; area</b>: map images come from OpenStreetMap's tile servers, as described under Location.</li>
+  <li><b>Offline speech to text</b>: when you tap Download, the speech engine comes from MegaDo's GitHub releases and the speech models (OpenAI Whisper, through the whisper.cpp project) from Hugging Face. These are plain file downloads; no audio, text or personal data is sent. After that, transcription works with no internet.</li>
 </ul>
 
 <h2>PC remote, remote desktop and Wake PC</h2>
-<p>These tools talk directly to your own PC over your local network. Pairing details (the PC's name, local address, network card address and remote desktop password) come from the QR code you scan in MegaDo for Windows and are stored only on your phone. On Windows, Phone remote is off until you turn it on; it then listens on your local network and accepts only a phone that sends the pairing code. Remote desktop connects to the TightVNC server you install on the PC. Nothing goes through the internet or to the developer.</p>
+<p>These tools talk directly to your own PC over your local network. Pairing details (the PC's name, local address, network card address and remote desktop password) come from the QR code you scan in MegaDo for Windows and are stored only on your phone. On Windows, Phone remote is off until you turn it on; it then listens on your local network and accepts only a phone that sends the pairing code. Remote desktop connects to the remote desktop server built into MegaDo for Windows, which is off until you turn it on. It then listens on your local network and accepts a connection only with its permanent password or a one-time password that changes after each session, and it shares the screen, mouse, keyboard and clipboard only during a connection you or someone you gave the password to opened. If you install the optional "MegaDo Remote Desktop" service, the server also works before anyone signs in, and Windows Firewall is opened for your local network only. Nothing goes through the internet or to the developer.</p>
 
 <h2>App updates</h2>
 <p>Once a day, and when you tap "Check for updates", MegaDo (on Android and Windows) asks GitHub for the latest release of the app. No personal data is sent with this request. Downloaded updates are installed only after you confirm.</p>
