@@ -133,6 +133,10 @@ Open **Settings → Sync → Sync with Google Drive** on each device and choose 
 **[MegaShare](https://megamind2999.github.io/MegaShareApk/)**: share files from Android with any phone or computer over Wi-Fi or hotspot. They only need a browser: no app, no internet, no account.
 <br clear="left">
 
+<a href="https://megamind2999.github.io/MegaDLAPK/"><img src="megadl.png" width="48" align="left" alt="MegaDL icon"></a>
+**[MegaDL](https://megamind2999.github.io/MegaDLAPK/)**: download manager for Android and Windows: music with cover art and lyrics, video at your quality, fast direct files with pause and resume, phone and PC pairing and a browser extension.
+<br clear="left">
+
 ## Feedback
 
 Found a bug or have an idea? [Open an issue](https://github.com/MegaMind2999/MegaDoApk/issues).
