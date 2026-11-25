@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://megamind2999.github.io/MegaDoApk/</loc><lastmod>2026-11-20</lastmod><priority>1.0</priority></url>
-  <url><loc>https://megamind2999.github.io/MegaDoApk/privacy.html</loc><lastmod>2026-11-20</lastmod><priority>0.5</priority></url>
-  <url><loc>https://megamind2999.github.io/MegaDoApk/terms.html</loc><lastmod>2026-11-04</lastmod><priority>0.5</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://megamind2999.github.io/MegaDoApk/</loc><lastmod>2026-11-26</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/icon.png</image:loc><image:title>MegaDo app icon</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/today.jpg</image:loc><image:title>MegaDo: Today</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/quick-add.jpg</image:loc><image:title>MegaDo: Quick add guide</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/task-editor.jpg</image:loc><image:title>MegaDo: Reminders your way</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/location.jpg</image:loc><image:title>MegaDo: Location reminders</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/note.jpg</image:loc><image:title>MegaDo: Rich notes</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/note-markdown.jpg</image:loc><image:title>MegaDo: Markdown notes</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/scan.jpg</image:loc><image:title>MegaDo: Scan &amp; enhance</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/alarm.jpg</image:loc><image:title>MegaDo: Alarms with snooze</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/calendar.jpg</image:loc><image:title>MegaDo: Calendar</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/clock-alarms.jpg</image:loc><image:title>MegaDo: Alarms</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/clock-timers.jpg</image:loc><image:title>MegaDo: Repeating timers</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/clock-floating.jpg</image:loc><image:title>MegaDo: Floating timers</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/tools.jpg</image:loc><image:title>MegaDo: 77 tools</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/markets.jpg</image:loc><image:title>MegaDo: Markets</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaDoApk/screenshots/windows-today.jpg</image:loc><image:title>MegaDo: MegaDo for Windows</image:title></image:image>
+  </url>
+  <url><loc>https://megamind2999.github.io/MegaDoApk/privacy.html</loc><lastmod>2026-11-25</lastmod><priority>0.3</priority></url>
+  <url><loc>https://megamind2999.github.io/MegaDoApk/terms.html</loc><lastmod>2026-11-04</lastmod><priority>0.3</priority></url>
 </urlset>

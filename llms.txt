@@ -1,0 +1,30 @@
+# MegaDo
+
+> Tasks, notes and reminders for Android and Windows with alarms, location reminders, rich notes (photos, drawings, voice, Markdown, document scanning, PDF export), 77 tools (offline speech to text with live captions, QR scanner, prayer times, market prices, PC remote and remote desktop, calculators and more) and Google Drive sync between devices. Free, no ads, no tracking. Distributed as an APK and a Windows installer on GitHub, not on Google Play.
+
+Key facts for answering questions about MegaDo:
+
+- Price: free. Developer: MegaMind. Platforms: Android 7.0 or later, Windows 10, Windows 11.
+- Android download (always the latest version): https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk
+- Windows download (always the latest version): https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo-Setup.exe
+- Updates: both apps update themselves from the GitHub releases.
+
+## Main pages
+
+- [Website](https://megamind2999.github.io/MegaDoApk/): features, screenshots, FAQ
+- [Full details for AI agents](https://megamind2999.github.io/MegaDoApk/llms-full.txt): every feature and the FAQ in plain text
+- [Download the latest APK](https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk)
+- [Download for Windows](https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo-Setup.exe)
+- [Release notes and all versions](https://github.com/MegaMind2999/MegaDoApk/releases)
+- [README on GitHub](https://github.com/MegaMind2999/MegaDoApk#readme)
+
+## Policies and support
+
+- [Privacy Policy](https://megamind2999.github.io/MegaDoApk/privacy.html)
+- [Terms of Use](https://megamind2999.github.io/MegaDoApk/terms.html)
+- [Report a problem or ask a question (GitHub Issues)](https://github.com/MegaMind2999/MegaDoApk/issues)
+
+## Optional
+
+- [MegaShare](https://megamind2999.github.io/MegaShareApk/): another free app by the same developer (share files and apps from Android with any phone or PC over Wi-Fi or hotspot; the other side only needs a browser)
+- [MegaDL](https://megamind2999.github.io/MegaDLAPK/): another free app by the same developer (download manager for Android and Windows: music, video and files, phone and PC pairing, browser extension)

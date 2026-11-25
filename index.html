@@ -10,29 +10,289 @@
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
 <meta name="theme-color" content="#0b0a16">
+<link rel="alternate" type="text/plain" title="MegaDo for AI agents (llms.txt)" href="llms.txt">
+<meta name="application-name" content="MegaDo">
+<meta name="author" content="MegaMind">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="MegaDo">
 <meta property="og:title" content="MegaDo: tasks, notes, reminders and tools for Android and Windows">
 <meta property="og:description" content="Free app for Android and Windows: to-dos, rich notes, alarms, location reminders, offline live captions, 77 handy tools and Google Drive sync between your devices.">
 <meta property="og:url" content="https://megamind2999.github.io/MegaDoApk/">
 <meta property="og:image" content="https://megamind2999.github.io/MegaDoApk/icon.png">
 <meta name="twitter:card" content="summary">
 
-<!-- Lets Google show MegaDo as an app (name, OS, price, download) in search results. -->
+<!-- Tells Google and AI agents what MegaDo is (app, features, screenshots, price, download). The FAQPage block below must match the FAQ section word for word: update both together. -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "MegaDo",
-  "description": "Tasks, notes and reminders for Android and Windows with alarms, location reminders, rich notes (photos, drawings, voice, Markdown, document scanning, PDF export), 77 tools (offline speech to text with live captions, QR scanner, prayer times, market prices, PC remote and remote desktop, calculators and more) and Google Drive sync between devices.",
-  "applicationCategory": "ProductivityApplication",
-  "operatingSystem": "Android 7.0 or later, Windows 10, Windows 11",
-  "url": "https://megamind2999.github.io/MegaDoApk/",
-  "downloadUrl": "https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk",
-  "installUrl": "https://github.com/MegaMind2999/MegaDoApk/releases/latest",
-  "image": "https://megamind2999.github.io/MegaDoApk/icon.png",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "author": { "@type": "Person", "name": "MegaMind" }
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://megamind2999.github.io/MegaDoApk/#app",
+   "name": "MegaDo",
+   "description": "Tasks, notes and reminders for Android and Windows with alarms, location reminders, rich notes (photos, drawings, voice, Markdown, document scanning, PDF export), 77 tools (offline speech to text with live captions, QR scanner, prayer times, market prices, PC remote and remote desktop, calculators and more) and Google Drive sync between devices.",
+   "applicationCategory": "ProductivityApplication",
+   "operatingSystem": "Android 7.0 or later, Windows 10, Windows 11",
+   "url": "https://megamind2999.github.io/MegaDoApk/",
+   "downloadUrl": "https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk",
+   "installUrl": "https://github.com/MegaMind2999/MegaDoApk/releases/latest",
+   "image": "https://megamind2999.github.io/MegaDoApk/icon.png",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "author": {
+    "@id": "https://megamind2999.github.io/MegaDoApk/#author"
+   },
+   "alternateName": "MegaDo APK",
+   "isAccessibleForFree": true,
+   "releaseNotes": "https://github.com/MegaMind2999/MegaDoApk/releases",
+   "screenshot": [
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/today.jpg",
+     "caption": "Today"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/quick-add.jpg",
+     "caption": "Quick add guide"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/task-editor.jpg",
+     "caption": "Reminders your way"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/location.jpg",
+     "caption": "Location reminders"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/note.jpg",
+     "caption": "Rich notes"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/note-markdown.jpg",
+     "caption": "Markdown notes"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/scan.jpg",
+     "caption": "Scan & enhance"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/alarm.jpg",
+     "caption": "Alarms with snooze"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/calendar.jpg",
+     "caption": "Calendar"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/clock-alarms.jpg",
+     "caption": "Alarms"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/clock-timers.jpg",
+     "caption": "Repeating timers"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/clock-floating.jpg",
+     "caption": "Floating timers"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/tools.jpg",
+     "caption": "77 tools"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/markets.jpg",
+     "caption": "Markets"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaDoApk/screenshots/windows-today.jpg",
+     "caption": "MegaDo for Windows"
+    }
+   ],
+   "featureList": [
+    "To-dos that fit your day: Lists, subtasks, priorities, tags and pins. A Today view with what's overdue, due today and coming up, plus your streak and weekly progress.",
+    "Quick add in plain words, or by voice: Type or say “Call mom same day next week at 5 pm high” and MegaDo sets the date, time, priority, repeat and reminder for you. It knows your places too: “Buy milk at home”, “Call Ali when I leave work”. Tap the sparkle for a guide of everything it understands.",
+    "A full clock: Alarms with repeat days, ringtones, gradual volume and snooze; a stopwatch with laps; as many timers as you like. Dismiss with a swipe, never by accident.",
+    "Repeating timers: “Every minute, five times”: rounds that ring until dismissed or just chime, plus a floating window that shows them over your other apps.",
+    "Location reminders & saved places: Draw a circle on the map and get reminded when you arrive at or leave a place. Save Home, Work or the gym once, then pick them with one tap or just name them in quick add.",
+    "Notes with everything: Mix text, checklists, photos, camera shots and hand drawings in one note. Links open with a tap and show a preview card. Pin, color, tag and archive them.",
+    "Markdown & PDF: Write headings, lists, quotes and code in Markdown and it shows formatted, with a copy button on code blocks. Export any note as a PDF, photos included.",
+    "Scan & enhance: Turn a photo of a page into a clean scan: MegaDo finds the page, straightens it and offers looks like Sharp text and Magic color, with brightness, contrast and sharpness. Shrink big photos too.",
+    "Voice notes, now as text: Record your thoughts with a live waveform and play them back right inside your notes. MegaDo can also turn them into text on your phone, with no internet, in Arabic or English.",
+    "Calendar & search: See everything by month or week, pull the month down to fill the screen with your events, and find any task, note or tool instantly.",
+    "Widgets & shortcuts: Check off today's tasks from the home screen, add a Tools widget, or put any tool on the home screen as its own icon. Plus a quick-add tile.",
+    "Stunning themes: Light and dark modes, 16 accent colors with a matching app icon and loading screen, and animated backgrounds, for phones and tablets.",
+    "Backup & trash: Export everything to a single file and restore it any time. Deleted items wait 30 days in the trash.",
+    "Live transcription New: Speech to text that works with no internet: captions for what the microphone hears, for what plays on your phone (videos, podcasts, calls on speaker), or for any audio or video file. Arabic and English, or translate to English, with floating captions over your other apps. Save the transcript as a note. Nothing leaves your phone.",
+    "Measure: Speedometer with four faces, drag timer (0–100, ¼ mile), compass with true north, bubble level, ruler, protractor, map distance & area, step counter.",
+    "Sensors: G-force, metal detector, light meter, barometer & altitude, proximity wave counter, and a live dashboard of every sensor.",
+    "Camera: QR & barcode scanner (links, Wi-Fi, contacts), text scanner (English and Arabic), magnifier with light, mirror, heart rate, a live color picker, and QR transfer: send text, photos, videos or any file to another phone or your PC as moving QR codes, no internet needed.",
+    "Sound & music: Sound meter, tuner, metronome, tone generator, sleep sounds with a timer, and a hearing test.",
+    "Light & signals: Flashlight with strobe, SOS and Morse, NFC tag reader, and a QR code maker for links and Wi-Fi. The Morse translator can even read light flashes with the camera.",
+    "Time & focus: Pomodoro focus timer linked to your tasks, breathing exercises, a chess clock, and countdowns to the dates that matter.",
+    "Prayer: Prayer times for your location with an optional azan reminder, and the Qibla direction. Works offline too.",
+    "Calculate & convert: Scientific calculator, unit converter, tip & percent, dates, color picker, GPA, BMI, loan, time zones, Roman numerals, and a code converter (binary, hex, Base64 and more).",
+    "Money & markets: A currency converter for 160 currencies, USD/EGP and other currencies, gold per gram, EGX 30/70/100 and world markets with charts. Get a price notification at the times you choose.",
+    "Text: Word counter (Arabic too), case converter, text to speech, a Morse translator and a hash generator (MD5, SHA-256).",
+    "Device & network: Battery health and charging, network and Wi-Fi details, ping and DNS tools, a Wi-Fi analyzer, GPS status, a Bluetooth finder for lost earbuds, a LAN scanner, a screen test, a phone checkup, storage cleanup, an internet speed test, and full device info.",
+    "Your PC: Use your phone as a touchpad and keyboard for your PC, see and control its screen with the remote desktop built into MegaDo for Windows (nothing else to install), switch it on from the couch (Wake PC) or lock, sleep and shut it down (PC power), and chat with it to pass text and files both ways without keeping anything. Pair once by scanning a QR code from MegaDo for Windows; everything goes encrypted over your own Wi-Fi.",
+    "Repeat & nag: Hourly, daily, weekly on chosen days, monthly or yearly, with an end date. “Keep reminding me” re-alerts until you tick it off."
+   ],
+   "publisher": {
+    "@id": "https://megamind2999.github.io/MegaDoApk/#author"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://megamind2999.github.io/MegaDoApk/#author",
+   "name": "MegaMind",
+   "url": "https://github.com/MegaMind2999"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://megamind2999.github.io/MegaDoApk/#website",
+   "name": "MegaDo",
+   "url": "https://megamind2999.github.io/MegaDoApk/",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://megamind2999.github.io/MegaDoApk/#author"
+   },
+   "about": {
+    "@id": "https://megamind2999.github.io/MegaDoApk/#app"
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is MegaDo really free?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. It's free, with no ads, no subscriptions and no in-app purchases."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I install it?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Download MegaDo.apk on your Android phone or tablet and open it. If Android asks, allow installing apps from your browser or file manager."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do updates work?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "MegaDo checks for a new version once a day and offers to download and install it for you. You can also check any time in Settings → Updates. Your tasks and notes are always kept."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is there a Windows version?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Download MegaDo for Windows (Windows 10 and 11). The installer lets you install it just for you, or for everyone on the PC in Program Files (that needs admin rights), and lets you choose the folder. It has Today, tasks and lists, the calendar, notes, alarms, reminders and 56 of the tools, and stays in step with your phone through the same Google Drive sync: sign in with the same Google account on both. Reminders and the optional azan ring on the PC while MegaDo runs; it can start with Windows and wait in the tray. Location reminders ring on your phone. It updates itself like the Android app."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Where do prayer times come from?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "From the free AlAdhan service, using your approximate location (rounded to about 1 km), with an on-device calculation when you're offline. The azan reminder is off until you turn it on, and costs nothing when it's off."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Where do market prices come from?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "From Yahoo Finance's public market data, fetched by the app itself with no account. Gold per gram and the Egyptian pound rates are worked out from those prices. They refresh every minute only while Markets is open. Price notifications are off until you turn them on with the bell; then MegaDo checks only the items you chose, at the times you set. Prices can be delayed, so don't use them for trading."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do the PC remote and remote desktop work?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In MegaDo for Windows, open Tools → Phone remote, turn it on and scan its QR code with Tools → PC remote on your phone. Your phone then works as a touchpad and keyboard for the PC over your own Wi-Fi; nothing goes through the internet. Remote desktop shows and controls the PC's screen with the remote desktop server built into MegaDo for Windows: turn it on in Phone remote, and the same QR code pairs your phone with a permanent password. To help someone once, give them a one-time password that changes after each session. Another PC with MegaDo can connect too, from Tools → Remote desktop. Install the optional “MegaDo Remote Desktop” service (one admin prompt) to also reach the sign-in and lock screens and admin prompts, even when MegaDo is closed. A PC that supports Wake-on-LAN can be switched on with Wake PC."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How does live transcription work?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Open Tools → Live transcription and download a speech model once (Tiny, Base or Small; Small is best for Arabic). From then on MegaDo turns speech into text on your phone with no internet: from the microphone, from what plays on the phone (Android 10 and newer), or from an audio or video file. Captions can float over other apps while you watch. The same models can transcribe your voice notes. No audio or text is ever sent anywhere."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Why isn't it on Google Play?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "MegaDo is published directly as an APK on this site and its GitHub releases page."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it work without internet?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes, your tasks, notes and reminders work offline. Internet is only used for maps, place search, Google Drive sync, checking for updates, link previews in notes, downloading speech models once for live transcription, and the tools that need it: prayer times (with an offline fallback), Markets and the speed test."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it work with Google Calendar?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Turn on Settings → Phone calendar to see your calendar events in MegaDo's Calendar, and optionally have tasks with a due date added to a calendar you choose. They stay updated as you edit or finish tasks."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Why do location reminders ask for “Allow all the time”?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Android only lets an app notice that you arrived somewhere while it's closed if location is allowed all the time. MegaDo uses Android's battery-efficient geofencing and never records where you go."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How quickly does a location reminder go off?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Arrival reminders usually go off within seconds of reaching the place. When you come within about 2.5 km of a place, MegaDo turns on GPS for a few minutes (you'll see a quiet “Nearby” notification) and alerts as soon as you're inside the circle, then switches GPS off again. Want a warning first? Turn on “Heads-up when getting close” in any arrival reminder and you'll also get an “Almost at …” notification 500 m, 1 km or 2 km before you get there (pick the distance in Settings → Places). Leaving reminders rely on Android's battery-efficient geofencing and usually fire within a minute or two. Nothing about where you go is recorded or sent anywhere. For the best results keep location and Wi-Fi scanning on, use a circle of 150–250 m, and let MegaDo run without battery restrictions."
+   }
+  }
+ ]
 }
 </script>
 
@@ -339,7 +599,7 @@
 <footer>
   <div class="wrap">
     <a class="brand" href="./"><img src="icon.png" alt="" width="28" height="28">MegaDo</a>
-    <span>© 2026 MegaMind</span>
+    <span>© <span class="year">2026</span> MegaMind</span><script>document.querySelectorAll('.year').forEach(function (e) { e.textContent = new Date().getFullYear(); });</script>
     <nav>
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Use</a>
