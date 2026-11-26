@@ -36,6 +36,6 @@ All retaken for 2.19 (November 2026) with sample data only: no personal informat
 | `windows-health.jpg` | MegaDo for Windows: Health |
 | `windows-notes.jpg` | MegaDo for Windows: Notes |
 | `windows-translate.jpg` | MegaDo for Windows: Translate, English to Arabic offline |
-| `windows-tools.jpg` | MegaDo for Windows: Toolbox, 57 tools |
+| `windows-tools.jpg` | MegaDo for Windows: Toolbox, 66 tools |
 
 Retake them on the emulator when the UI changes noticeably; never use screenshots from a personal device.
