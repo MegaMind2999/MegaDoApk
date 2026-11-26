@@ -135,7 +135,7 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Light, dark and AMOLED black themes, 16 accent colors with a matching app icon and loading screen, animated backgrounds; phone and tablet layouts
 - App size: make MegaDo bigger or smaller (80 to 130 percent), whatever the phone's font and display size
 - Updates itself from GitHub; on Android 12+ later updates install without a prompt
-- Battery and PC friendly: no polling, batched background work, animations pause when not visible; on Windows MegaDo stops drawing when minimized or in the tray, and reminders still ring on time
+- Battery and PC friendly: no polling, batched background work, animations pause when not visible; on Windows MegaDo stops drawing when minimized or in the tray, and reminders still ring on time; easy on your disk too (nothing rewritten when nothing changed, automatic backups at most every 6 hours)
 - Private: no accounts, ads, analytics or servers
 
 ## Install
