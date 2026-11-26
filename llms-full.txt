@@ -1,6 +1,6 @@
 # MegaDo: full details
 
-> Tasks, notes and reminders for Android and Windows with alarms, location reminders, rich notes (photos, drawings, voice, Markdown, document scanning, PDF export), 77 tools (offline speech to text with live captions, QR scanner, prayer times, market prices, PC remote and remote desktop, calculators and more) and Google Drive sync between devices.
+> Tasks, notes and reminders for Android and Windows with alarms, location reminders, rich notes (photos, drawings, voice, Markdown, document scanning, PDF export), water, food, sleep and heart-rate tracking, 79 tools (offline translation, a photo editor, offline speech to text with live captions, QR scanner, prayer times, market prices, PC remote and remote desktop, calculators and more) and Google Drive sync between devices.
 
 - Website: https://megamind2999.github.io/MegaDoApk/
 - Latest APK: https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk
@@ -14,19 +14,22 @@
 ## Features
 
 - To-dos that fit your day: Lists, subtasks, priorities, tags and pins. A Today view with what's overdue, due today and coming up, plus your streak and weekly progress.
-- Quick add in plain words, or by voice: Type or say “Call mom same day next week at 5 pm high” and MegaDo sets the date, time, priority, repeat and reminder for you. It knows your places too: “Buy milk at home”, “Call Ali when I leave work”. Tap the sparkle for a guide of everything it understands.
+- Quick add in plain words, or by voice: Type or say “Call mom same day next week at 5 pm high” and MegaDo sets the date, time, priority, repeat and reminder for you. Put subtasks after a colon (“Pack: passport, charger and tickets”), notes after --, save it straight to a list (“… to my Shopping list”), or start with note: to make a note. It knows your places too: “Buy milk at home”, “Call Ali when I leave work”. Tap the sparkle for a guide of everything it understands.
+- Health: Water cups with a daily goal and gentle reminders, food and calories with your recent foods, sleep with one tap at bedtime and on waking, and heart rate, each with a week chart. Imports sleep and heart rate from your watch through Health Connect, and syncs with the PC.
 - A full clock: Alarms with repeat days, ringtones, gradual volume and snooze; a stopwatch with laps; as many timers as you like. Dismiss with a swipe, never by accident.
 - Repeating timers: “Every minute, five times”: rounds that ring until dismissed or just chime, plus a floating window that shows them over your other apps.
 - Location reminders & saved places: Draw a circle on the map and get reminded when you arrive at or leave a place. Save Home, Work or the gym once, then pick them with one tap or just name them in quick add.
-- Notes with everything: Mix text, checklists, photos, camera shots and hand drawings in one note. Links open with a tap and show a preview card. Pin, color, tag and archive them.
+- Notes with everything: Mix text, checklists, photos, camera shots and hand drawings in one note. Edit a photo right in the note, translate the whole note offline, and links open with a tap and show a preview card. Pin, color, tag and archive them.
 - Markdown & PDF: Write headings, lists, quotes and code in Markdown and it shows formatted, with a copy button on code blocks. Export any note as a PDF, photos included.
-- Scan & enhance: Turn a photo of a page into a clean scan: MegaDo finds the page, straightens it and offers looks like Sharp text and Magic color, with brightness, contrast and sharpness. Shrink big photos too.
+- Scan & enhance: Turn a photo of a page into a clean scan: MegaDo finds the page, straightens it and offers looks like Sharp text, No shadow and Magic color, with a strength slider, a before and after compare, and brightness, contrast and sharpness. Shrink big photos too.
 - Voice notes, now as text: Record your thoughts with a live waveform and play them back right inside your notes. MegaDo can also turn them into text on your phone, with no internet, in Arabic or English.
 - Calendar & search: See everything by month or week, pull the month down to fill the screen with your events, and find any task, note or tool instantly.
 - Widgets & shortcuts: Check off today's tasks from the home screen, add a Tools widget, or put any tool on the home screen as its own icon. Plus a quick-add tile.
-- Stunning themes: Light and dark modes, 16 accent colors with a matching app icon and loading screen, and animated backgrounds, for phones and tablets.
+- Stunning themes: Light, dark and AMOLED black, 16 accent colors with a matching app icon and loading screen, and animated backgrounds, for phones and tablets. Make the whole app bigger or smaller, from 80 to 130 percent.
 - Backup & trash: Export everything to a single file and restore it any time. Deleted items wait 30 days in the trash.
-- Live transcription New: Speech to text that works with no internet: captions for what the microphone hears, for what plays on your phone (videos, podcasts, calls on speaker), or for any audio or video file. Arabic and English, or translate to English, with floating captions over your other apps. Save the transcript as a note. Nothing leaves your phone.
+- Translate: Translation that works with no internet, with Firefox's translation models: download only the languages you need (58 languages, Arabic about 50 MB). Translate notes, text you select in any app, text from the camera or a photo, and live captions, or keep a floating bubble over your other apps. Nothing leaves your phone.
+- Photo editor: Crop and rotate, adjust light and color, levels, filters with a strength slider, photo on photo with an eraser, drawing and text. Open any photo, or edit one right inside a note.
+- Live transcription: Speech to text that works with no internet, and fast: captions for what the microphone hears, for what plays on your phone (videos, podcasts, calls on speaker), or for any audio or video file. Arabic and English, or translate to English, with floating captions over your other apps. Save the transcript as a note. Nothing leaves your phone.
 - Measure: Speedometer with four faces, drag timer (0–100, ¼ mile), compass with true north, bubble level, ruler, protractor, map distance & area, step counter.
 - Sensors: G-force, metal detector, light meter, barometer & altitude, proximity wave counter, and a live dashboard of every sensor.
 - Camera: QR & barcode scanner (links, Wi-Fi, contacts), text scanner (English and Arabic), magnifier with light, mirror, heart rate, a live color picker, and QR transfer: send text, photos, videos or any file to another phone or your PC as moving QR codes, no internet needed.
@@ -36,6 +39,7 @@
 - Prayer: Prayer times for your location with an optional azan reminder, and the Qibla direction. Works offline too.
 - Calculate & convert: Scientific calculator, unit converter, tip & percent, dates, color picker, GPA, BMI, loan, time zones, Roman numerals, and a code converter (binary, hex, Base64 and more).
 - Money & markets: A currency converter for 160 currencies, USD/EGP and other currencies, gold per gram, EGX 30/70/100 and world markets with charts. Get a price notification at the times you choose.
+- Generate & count: Random numbers, dice and coin, spin the wheel, team splitter, score keeper, tally counters and a password generator.
 - Text: Word counter (Arabic too), case converter, text to speech, a Morse translator and a hash generator (MD5, SHA-256).
 - Device & network: Battery health and charging, network and Wi-Fi details, ping and DNS tools, a Wi-Fi analyzer, GPS status, a Bluetooth finder for lost earbuds, a LAN scanner, a screen test, a phone checkup, storage cleanup, an internet speed test, and full device info.
 - Your PC: Use your phone as a touchpad and keyboard for your PC, see and control its screen with the remote desktop built into MegaDo for Windows (nothing else to install), switch it on from the couch (Wake PC) or lock, sleep and shut it down (PC power), and chat with it to pass text and files both ways without keeping anything. Pair once by scanning a QR code from MegaDo for Windows; everything goes encrypted over your own Wi-Fi.
@@ -57,7 +61,7 @@ MegaDo checks for a new version once a day and offers to download and install it
 
 ### Is there a Windows version?
 
-Yes. Download MegaDo for Windows (Windows 10 and 11). The installer lets you install it just for you, or for everyone on the PC in Program Files (that needs admin rights), and lets you choose the folder. It has Today, tasks and lists, the calendar, notes, alarms, reminders and 56 of the tools, and stays in step with your phone through the same Google Drive sync: sign in with the same Google account on both. Reminders and the optional azan ring on the PC while MegaDo runs; it can start with Windows and wait in the tray. Location reminders ring on your phone. It updates itself like the Android app.
+Yes. Download MegaDo for Windows (Windows 10 and 11). The installer lets you install it just for you, or for everyone on the PC in Program Files (that needs admin rights), and lets you choose the folder. It has Today, tasks and lists, the calendar, notes, alarms, reminders and 57 of the tools, and stays in step with your phone through the same Google Drive sync: sign in with the same Google account on both. Reminders and the optional azan ring on the PC while MegaDo runs; it can start with Windows and wait in the tray. Location reminders ring on your phone. It updates itself like the Android app.
 
 ### Where do prayer times come from?
 
@@ -75,13 +79,21 @@ In MegaDo for Windows, open Tools → Phone remote, turn it on and scan its QR c
 
 Open Tools → Live transcription and download a speech model once (Tiny, Base or Small; Small is best for Arabic). From then on MegaDo turns speech into text on your phone with no internet: from the microphone, from what plays on the phone (Android 10 and newer), or from an audio or video file. Captions can float over other apps while you watch. The same models can transcribe your voice notes. No audio or text is ever sent anywhere.
 
+### How does offline translation work?
+
+Open Tools → Translate and download the languages you need once (58 languages; Arabic is about 50 MB). Each one works to and from English, and other pairs go through English. After that MegaDo translates on your device with no internet, using Firefox's translation models: in Translate, in notes (menu → Translate note), from text you select or share in any app, and in a floating bubble over other apps. History is off unless you turn it on, and stays on that device. On Android it needs a 64-bit phone with Android 9 or newer; MegaDo for Windows has it too.
+
+### What does Health track?
+
+Water (cups toward a daily goal, with optional reminders until you reach it), food and calories, sleep and heart rate, each with a week chart; open it from Today → Health. Health Connect can import sleep and heart rate from your watch and show your steps, and can optionally receive the heart-rate readings you take. Everything stays on your devices and in your own Google Drive if you sync. It isn't a medical device.
+
 ### Why isn't it on Google Play?
 
 MegaDo is published directly as an APK on this site and its GitHub releases page.
 
 ### Does it work without internet?
 
-Yes, your tasks, notes and reminders work offline. Internet is only used for maps, place search, Google Drive sync, checking for updates, link previews in notes, downloading speech models once for live transcription, and the tools that need it: prayer times (with an offline fallback), Markets and the speed test.
+Yes, your tasks, notes and reminders work offline. Internet is only used for maps, place search, Google Drive sync, checking for updates, link previews in notes, downloading speech models and translation languages once, and the tools that need it: prayer times (with an offline fallback), Markets and the speed test.
 
 ### Does it work with Google Calendar?
 
@@ -94,4 +106,3 @@ Android only lets an app notice that you arrived somewhere while it's closed if 
 ### How quickly does a location reminder go off?
 
 Arrival reminders usually go off within seconds of reaching the place. When you come within about 2.5 km of a place, MegaDo turns on GPS for a few minutes (you'll see a quiet “Nearby” notification) and alerts as soon as you're inside the circle, then switches GPS off again. Want a warning first? Turn on “Heads-up when getting close” in any arrival reminder and you'll also get an “Almost at …” notification 500 m, 1 km or 2 km before you get there (pick the distance in Settings → Places). Leaving reminders rely on Android's battery-efficient geofencing and usually fire within a minute or two. Nothing about where you go is recorded or sent anywhere. For the best results keep location and Wi-Fi scanning on, use a circle of 150–250 m, and let MegaDo run without battery restrictions.
-

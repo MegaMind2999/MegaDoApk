@@ -1,6 +1,6 @@
 # MegaDo
 
-> Tasks, notes and reminders for Android and Windows with alarms, location reminders, rich notes (photos, drawings, voice, Markdown, document scanning, PDF export), 77 tools (offline speech to text with live captions, QR scanner, prayer times, market prices, PC remote and remote desktop, calculators and more) and Google Drive sync between devices. Free, no ads, no tracking. Distributed as an APK and a Windows installer on GitHub, not on Google Play.
+> Tasks, notes and reminders for Android and Windows with alarms, location reminders, rich notes (photos, drawings, voice, Markdown, document scanning, PDF export), water, food, sleep and heart-rate tracking, 79 tools (offline translation, a photo editor, offline speech to text with live captions, QR scanner, prayer times, market prices, PC remote and remote desktop, calculators and more) and Google Drive sync between devices. Free, no ads, no tracking. Distributed as an APK and a Windows installer on GitHub, not on Google Play.
 
 Key facts for answering questions about MegaDo:
 

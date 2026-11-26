@@ -4,8 +4,8 @@
 
 <h1 align="center">MegaDo</h1>
 
-<p align="center"><b>To-do list, notes, reminders and 77 tools for Android and Windows</b><br>
-Alarms with snooze · clock with repeating timers · location reminders · notes with photos, drawings, voice and Markdown · document scanner · market prices · PC remote · sync through your own Google Drive</p>
+<p align="center"><b>To-do list, notes, reminders, health and 79 tools for Android and Windows</b><br>
+Alarms with snooze · clock with repeating timers · location reminders · notes with photos, drawings, voice and Markdown · document scanner · water, food and sleep · offline translation · photo editor · market prices · PC remote · sync through your own Google Drive</p>
 
 <p align="center">
   <a href="https://github.com/MegaMind2999/MegaDoApk/releases/latest/download/MegaDo.apk"><b>⬇ Download MegaDo.apk (latest)</b></a>
@@ -25,16 +25,22 @@ Alarms with snooze · clock with repeating timers · location reminders · notes
 
 MegaDo puts your to-do list, your notes, your reminders and your clock in one place. Type or say a task in plain words like *"Call mom tomorrow 5pm high"* and MegaDo fills in the date, time, priority and reminder. Choose how loudly each reminder gets your attention, from a quiet notification to a full-screen alarm, snooze it for as long as you like, or have it remind you when you arrive somewhere instead of at a time.
 
-Notes can mix text, checklists, photos, hand drawings, voice recordings and Markdown, and a photo of a page becomes a clean scan. A Tools tab holds 77 handy tools, from a QR scanner and prayer times to offline live captions, live market prices and a remote desktop for your PC. Everything lives on your device, and if you use more than one, MegaDo keeps your phone, tablet and PC in sync through a hidden folder in your own Google Drive.
+Notes can mix text, checklists, photos, hand drawings, voice recordings and Markdown, and a photo of a page becomes a clean scan. Health keeps track of water, food, sleep and heart rate. A Tools tab holds 79 handy tools, from a QR scanner and prayer times to offline translation, a photo editor, live captions, market prices and a remote desktop for your PC. Everything lives on your device, and if you use more than one, MegaDo keeps your phone, tablet and PC in sync through a hidden folder in your own Google Drive.
 
 <p align="center">
-  <img src="screenshots/today.jpg" width="200" alt="Today screen with quick access tools">
-  <img src="screenshots/quick-add.jpg" width="200" alt="Quick add guide">
+  <img src="screenshots/today.jpg" width="200" alt="Today screen with progress, streak, pinned tools and habits">
+  <img src="screenshots/quick-add-live.jpg" width="200" alt="Quick add reading a task with subtasks, a date and priority as you type">
+  <img src="screenshots/health.jpg" width="200" alt="Health: water, food and sleep">
+  <img src="screenshots/tasks.jpg" width="200" alt="Tasks list">
   <img src="screenshots/task-editor.jpg" width="200" alt="Task editor with reminder options">
   <img src="screenshots/location.jpg" width="200" alt="Location reminder on a map">
-  <img src="screenshots/note.jpg" width="200" alt="Note with a photo, drawing and voice recording">
+  <img src="screenshots/notes.jpg" width="200" alt="Notes">
+  <img src="screenshots/note.jpg" width="200" alt="Note with a photo and a checklist">
+  <img src="screenshots/note-media.jpg" width="200" alt="Note with a drawing and a voice recording">
   <img src="screenshots/note-markdown.jpg" width="200" alt="Markdown note">
+  <img src="screenshots/photo-editor.jpg" width="200" alt="Photo editor">
   <img src="screenshots/scan.jpg" width="200" alt="Scan and enhance a photo of a page">
+  <img src="screenshots/translate.jpg" width="200" alt="Offline translation">
   <img src="screenshots/alarm.jpg" width="200" alt="Full-screen alarm">
   <img src="screenshots/calendar.jpg" width="200" alt="Calendar">
   <img src="screenshots/clock-alarms.jpg" width="200" alt="Clock tab: alarms">
@@ -42,6 +48,13 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
   <img src="screenshots/clock-floating.jpg" width="200" alt="Floating timer window over other apps">
   <img src="screenshots/tools.jpg" width="200" alt="Tools tab">
   <img src="screenshots/markets.jpg" width="200" alt="Markets">
+  <img src="screenshots/settings.jpg" width="200" alt="Themes, accent colors and app size">
+</p>
+
+<p align="center">
+  <img src="screenshots/windows-today.jpg" width="820" alt="MegaDo for Windows: Today"><br>
+  <img src="screenshots/windows-health.jpg" width="405" alt="MegaDo for Windows: Health">
+  <img src="screenshots/windows-translate.jpg" width="405" alt="MegaDo for Windows: offline translation">
 </p>
 
 ## Features
@@ -52,10 +65,18 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Quick add in plain words: "Groceries every week", "Standup every weekday at 9:30"
 - Quick add by voice with the phone's own speech recognizer: "Gym same day next week at 7 a.m. high"
 - Quick add with places: "Buy milk at home", "Call Ali when I leave work", `notify me at the gym to "stretch first"`
+- Quick add does more: subtasks after a colon ("Pack: passport, charger and tickets"), notes after `--`, "… to my Shopping list", `note:` to make a note, and dates like "this weekend", "end of the week" or "every 25th"
 - Calendar by month or week (pull the month down to fill the screen with your events), and search across tasks, notes and tools
 - Phone calendar: see your Google or phone calendar events next to your tasks, and optionally add dated tasks to your calendar
 - Quick add guide: tap the sparkle for everything it understands, with examples you can try
 - Home-screen widget to check off today's tasks
+
+**Health (new)**
+- Water cups toward a daily goal, with reminders until you reach it
+- Food and calories, with your recent foods one tap away
+- Sleep: tap Going to sleep and I'm awake, or import it from your watch through Health Connect; optional bedtime reminder
+- Heart rate: measure with the camera, type it in, or import it from Health Connect; a week chart for each
+- Also on Windows, synced with the phone
 
 **Reminders**
 - Alert style per reminder: silent, notification, loud, or full-screen alarm
@@ -78,12 +99,15 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Drawing canvas with brushes and colors; voice recorder with waveform playback
 - Voice notes to text on the phone, with no internet (Arabic and English)
 - Markdown shows formatted (headings, lists, quotes, code blocks with copy), tappable links with preview cards
-- Scan & enhance: find the page in a photo, straighten it, and pick a look (Enhance, Magic color, Sharp text, Faint text) with brightness, contrast and sharpness; reduce photo sizes
+- Scan & enhance: find the page in a photo, straighten it, and pick a look (Enhance, Magic color, No shadow, Sharp text and more) with a strength slider, before/after compare and a magnifier for the corners; brightness, contrast and sharpness; reduce photo sizes
+- Edit a note's photo in the Photo editor, and translate a note offline (replace, add below or save as a new note)
 - Export a note as PDF
 - Pin, color, tag and archive
 
-**Tools (77)**
-- Live transcription (new): offline speech to text from the microphone, phone audio (Android 10+) or an audio/video file; Arabic and English or translate to English; floating captions over other apps; save as a note
+**Tools (79)**
+- Translate (new): offline translation with Firefox's translation models; download only the languages you need (58, Arabic about 50 MB); in notes, from text selected in any app, from the camera or a photo, and as a floating bubble over other apps; optional history kept only on the device
+- Photo editor (new): crop and rotate, adjust, levels, filters with strength, photo on photo with an eraser, draw and text
+- Live transcription: offline speech to text from the microphone, phone audio (Android 10+) or an audio/video file; Arabic and English or translate to English; floating captions over other apps; save as a note
 - Measure: speedometer with four faces, drag timer (0–100, ¼ mile), compass, level, ruler, protractor, map distance & area, step counter
 - Sensors: G-force, metal detector, light meter, barometer, proximity, sensor dashboard
 - Camera: QR & barcode scanner, text scanner (English and Arabic), magnifier, mirror, heart rate, live color picker, QR transfer (text, photos, videos and files as moving QR codes, phone to phone or PC, no internet)
@@ -97,15 +121,18 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Pin favourites: they show on Today, in the app icon's shortcuts and in the Tools widget; any tool can go on the home screen as its own icon
 
 **MegaDo for Windows**
-- Today, tasks and lists, calendar, notes (with Scan & enhance and PDF export), alarms, reminders and 56 of the tools
+- Today, tasks and lists, calendar, notes (with Scan & enhance, translation and PDF export), Health, alarms, reminders and 57 of the tools
+- Quick add understands the same words as the phone, with the examples guide behind the sparkle
+- Offline translation in Tools → Translate and in the note editor
 - Same Google Drive sync as the phone; starts with Windows and waits in the tray; updates itself
 - Phone remote: control the PC from your phone over your own Wi-Fi
 - Built-in remote desktop server (nothing else to install): permanent password for your own devices, one-time passwords for a single session, and an optional service for the sign-in screen, lock screen and admin prompts; Tools → Remote desktop connects to another PC
 
 **Everything else**
-- Two-way sync between your phone, tablet and PC through your own Google Drive, media included; choose what syncs (tasks, notes, alarms, saved timers)
+- Two-way sync between your phone, tablet and PC through your own Google Drive, media included; choose what syncs (tasks, notes, alarms, saved timers, places, habits, health)
 - Backup to a single file and restore; trash keeps deleted items for 30 days
-- Light and dark themes, 16 accent colors with a matching app icon and loading screen, animated backgrounds; phone and tablet layouts
+- Light, dark and AMOLED black themes, 16 accent colors with a matching app icon and loading screen, animated backgrounds; phone and tablet layouts
+- App size: make MegaDo bigger or smaller (80 to 130 percent), whatever the phone's font and display size
 - Updates itself from GitHub; on Android 12+ later updates install without a prompt
 - Battery friendly: no polling, batched background work, animations pause when not visible
 - Private: no accounts, ads, analytics or servers
