@@ -61,7 +61,7 @@ MegaDo checks for a new version once a day and offers to download and install it
 
 ### Is there a Windows version?
 
-Yes. Download MegaDo for Windows (Windows 10 and 11). The installer lets you install it just for you, or for everyone on the PC in Program Files (that needs admin rights), and lets you choose the folder. It has Today, tasks and lists, the calendar, notes, alarms, reminders and 57 of the tools, and stays in step with your phone through the same Google Drive sync: sign in with the same Google account on both. Reminders and the optional azan ring on the PC while MegaDo runs; it can start with Windows and wait in the tray. Location reminders ring on your phone. It updates itself like the Android app.
+Yes. Download MegaDo for Windows (Windows 10 and 11). The installer lets you install it just for you, or for everyone on the PC in Program Files (that needs admin rights), and lets you choose the folder. It has Today, tasks and lists, the calendar, notes, alarms, reminders and 66 of the tools, and stays in step with your phone through the same Google Drive sync: sign in with the same Google account on both. Reminders and the optional azan ring on the PC while MegaDo runs; it can start with Windows and wait in the tray. Location reminders ring on your phone. It updates itself like the Android app.
 
 ### Where do prayer times come from?
 
@@ -77,7 +77,7 @@ In MegaDo for Windows, open Tools → Phone remote, turn it on and scan its QR c
 
 ### How does live transcription work?
 
-Open Tools → Live transcription and download a speech model once (Tiny, Base or Small; Small is best for Arabic). From then on MegaDo turns speech into text on your phone with no internet: from the microphone, from what plays on the phone (Android 10 and newer), or from an audio or video file. Captions can float over other apps while you watch. The same models can transcribe your voice notes. No audio or text is ever sent anywhere.
+Open Tools → Live transcription and download a speech model once (Tiny, Base or Small; Small is best for Arabic). From then on MegaDo turns speech into text on your phone with no internet: from the microphone, from what plays on the phone (Android 10 and newer), or from an audio or video file. Captions can float over other apps while you watch. MegaDo for Windows has it too: from the microphone, from what plays on the PC, or from a file, with captions that float over other windows. The same models can transcribe your voice notes. No audio or text is ever sent anywhere.
 
 ### How does offline translation work?
 

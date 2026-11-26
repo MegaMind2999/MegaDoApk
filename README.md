@@ -121,9 +121,10 @@ Notes can mix text, checklists, photos, hand drawings, voice recordings and Mark
 - Pin favourites: they show on Today, in the app icon's shortcuts and in the Tools widget; any tool can go on the home screen as its own icon
 
 **MegaDo for Windows**
-- Today, tasks and lists, calendar, notes (with Scan & enhance, translation and PDF export), Health, alarms, reminders and 57 of the tools
+- Today, tasks and lists, calendar, notes (with Scan & enhance, translation and PDF export), Health, alarms, reminders and 66 of the tools
 - Quick add understands the same words as the phone, with the examples guide behind the sparkle
 - Offline translation in Tools → Translate and in the note editor
+- Offline live transcription (microphone, what plays on the PC, or a file) with floating captions, the photo editor, speed test, map distance & area, Bluetooth finder, sensor dashboard, screen flashlight, webcam magnifier and protractor
 - Same Google Drive sync as the phone; starts with Windows and waits in the tray; updates itself
 - Phone remote: control the PC from your phone over your own Wi-Fi
 - Built-in remote desktop server (nothing else to install): permanent password for your own devices, one-time passwords for a single session, and an optional service for the sign-in screen, lock screen and admin prompts; Tools → Remote desktop connects to another PC
